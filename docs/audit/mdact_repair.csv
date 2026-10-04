@@ -1,0 +1,2 @@
+"case_id","original_seed","previous_error","repaired_status","same_saved_data","discoveries","false_discoveries","true_discoveries","alternatives","FDP","power"
+"confounded_dense_n300_t01_r0015",213418566,"the integral is probably divergent","ok",TRUE,95,8,87,212,0.0842105263157895,0.410377358490566

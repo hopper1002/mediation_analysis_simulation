@@ -1,0 +1,16 @@
+"case_id","replicate","method","discoveries","false_discoveries","true_discoveries","FDP","power"
+"binary_sparse_n300_t03_r0001",1,"HDMT",1,1,0,1,0
+"binary_sparse_n300_t03_r0001",1,"MDACT",1,1,0,1,0
+"binary_sparse_n300_t03_r0001",1,"MLFDR",1,1,0,1,0
+"binary_sparse_n300_t03_r0002",2,"HDMT",1,1,0,1,0
+"binary_sparse_n300_t03_r0002",2,"MDACT",0,0,0,0,0
+"binary_sparse_n300_t03_r0002",2,"MLFDR",0,0,0,0,0
+"binary_sparse_n300_t03_r0003",3,"HDMT",1,1,0,1,0
+"binary_sparse_n300_t03_r0003",3,"MDACT",0,0,0,0,0
+"binary_sparse_n300_t03_r0003",3,"MLFDR",0,0,0,0,0
+"binary_sparse_n300_t03_r0004",4,"HDMT",0,0,0,0,0
+"binary_sparse_n300_t03_r0004",4,"MDACT",0,0,0,0,0
+"binary_sparse_n300_t03_r0004",4,"MLFDR",0,0,0,0,0
+"binary_sparse_n300_t03_r0005",5,"HDMT",0,0,0,0,0
+"binary_sparse_n300_t03_r0005",5,"MDACT",0,0,0,0,0
+"binary_sparse_n300_t03_r0005",5,"MLFDR",0,0,0,0,0

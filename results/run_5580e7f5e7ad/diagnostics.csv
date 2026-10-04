@@ -1,0 +1,19 @@
+"case_id","method","status","warning","error","elapsed_seconds","cached"
+"linear_sparse_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.03,TRUE
+"linear_sparse_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.1,TRUE
+"linear_sparse_n300_t01_r0001","MLFDR","ok","","",0.19,TRUE
+"confounded_sparse_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.03,TRUE
+"confounded_sparse_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.11,TRUE
+"confounded_sparse_n300_t01_r0001","MLFDR","ok","","",0.22,TRUE
+"binary_sparse_n300_t01_r0001","HDMT","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred | ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.03,TRUE
+"binary_sparse_n300_t01_r0001","MDACT","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred | ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0899999999999999,TRUE
+"binary_sparse_n300_t01_r0001","MLFDR","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred","",0.28,TRUE
+"linear_dense_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.03,TRUE
+"linear_dense_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.04,TRUE
+"linear_dense_n300_t01_r0001","MLFDR","ok","","",0.45,TRUE
+"confounded_dense_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.02,TRUE
+"confounded_dense_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0499999999999998,TRUE
+"confounded_dense_n300_t01_r0001","MLFDR","ok","","",0.38,TRUE
+"binary_dense_n300_t01_r0001","HDMT","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred | ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.04,TRUE
+"binary_dense_n300_t01_r0001","MDACT","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred | ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0499999999999998,TRUE
+"binary_dense_n300_t01_r0001","MLFDR","ok","glm.fit: fitted probabilities numerically 0 or 1 occurred","",0.44,TRUE

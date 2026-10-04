@@ -1,0 +1,2 @@
+run_dir=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/run_2836e6c08e18
+manifest_path=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/data/data_f87521c2b4eb/manifest.rds

@@ -1,0 +1,541 @@
+"case_id","scenario","mixture","profile","n","m","tau","replicate","seed","method","q","status","cached","elapsed_seconds","warning","error","cache_key","discoveries","false_discoveries","true_discoveries","alternatives","FDP","power"
+"linear_sparse_n100_t01_r0001","linear","sparse","paper2026",100,1000,0.1,1,143140741,"HDMT",0.05,"ok",TRUE,0.03,"","","4ad7cc834a4a2974ec675b3f65c36b44",0,0,0,23,0,0
+"linear_sparse_n100_t01_r0001","linear","sparse","paper2026",100,1000,0.1,1,143140741,"MDACT",0.05,"ok",TRUE,0.1,"","","ee07c80fe46b87e08d4bf9d48d113db6",0,0,0,23,0,0
+"linear_sparse_n100_t01_r0001","linear","sparse","paper2026",100,1000,0.1,1,143140741,"MLFDR",0.05,"ok",TRUE,2.8,"","","0bcf64d5d2b57b65908dd2fea2c1f864",0,0,0,23,0,0
+"confounded_sparse_n100_t01_r0001","confounded","sparse","paper2026",100,1000,0.1,1,127326492,"HDMT",0.05,"ok",TRUE,0.0299999999999998,"","","195963e3f1bc26dcd47d3459665eabf9",0,0,0,18,0,0
+"confounded_sparse_n100_t01_r0001","confounded","sparse","paper2026",100,1000,0.1,1,127326492,"MDACT",0.05,"ok",TRUE,0.12,"","","7c31369910c99a7854887e4c573b09b8",0,0,0,18,0,0
+"confounded_sparse_n100_t01_r0001","confounded","sparse","paper2026",100,1000,0.1,1,127326492,"MLFDR",0.05,"ok",TRUE,1.95,"","","74698891c9fb306f9b4b7874c005e07c",0,0,0,18,0,0
+"binary_sparse_n100_t01_r0001","binary","sparse","paper2026",100,1000,0.1,1,97036070,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","6dd5e9b8daff632afd645beb57e015b5",0,0,0,21,0,0
+"binary_sparse_n100_t01_r0001","binary","sparse","paper2026",100,1000,0.1,1,97036070,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","d1b24ef010fa0473e0c567f3fd899178",0,0,0,21,0,0
+"binary_sparse_n100_t01_r0001","binary","sparse","paper2026",100,1000,0.1,1,97036070,"MLFDR",0.05,"ok",TRUE,2.71,"","","cd04f8627e04777be946005a55d3f1c6",0,0,0,21,0,0
+"linear_dense_n100_t01_r0001","linear","dense","paper2026",100,1000,0.1,1,28913323,"HDMT",0.05,"ok",TRUE,0.03,"","","5b7f7cd7c61c5aa6ef3f3bd8efb6e650",0,0,0,200,0,0
+"linear_dense_n100_t01_r0001","linear","dense","paper2026",100,1000,0.1,1,28913323,"MDACT",0.05,"ok",TRUE,0.1,"","","11b0a708478b10fcdd52970f3dd1cfed",0,0,0,200,0,0
+"linear_dense_n100_t01_r0001","linear","dense","paper2026",100,1000,0.1,1,28913323,"MLFDR",0.05,"ok",TRUE,2.79,"","","c530c8910f27b2716fa32bb0044dd087",0,0,0,200,0,0
+"confounded_dense_n100_t01_r0001","confounded","dense","paper2026",100,1000,0.1,1,260166805,"HDMT",0.05,"ok",TRUE,0.0299999999999998,"","","b55a883ffb2d3fb25a39e6d2a8a57411",0,0,0,187,0,0
+"confounded_dense_n100_t01_r0001","confounded","dense","paper2026",100,1000,0.1,1,260166805,"MDACT",0.05,"ok",TRUE,0.12,"","","44fb574c4a5a14006cc9a86d88dd218c",0,0,0,187,0,0
+"confounded_dense_n100_t01_r0001","confounded","dense","paper2026",100,1000,0.1,1,260166805,"MLFDR",0.05,"ok",TRUE,1.89,"","","2af0cfab34cddda6cf32e36756e65d74",0,0,0,187,0,0
+"binary_dense_n100_t01_r0001","binary","dense","paper2026",100,1000,0.1,1,137814416,"HDMT",0.05,"ok",TRUE,0.00999999999999979,"","","a6db50b754c176902898893f2ed9c833",0,0,0,182,0,0
+"binary_dense_n100_t01_r0001","binary","dense","paper2026",100,1000,0.1,1,137814416,"MDACT",0.05,"ok",TRUE,0.0299999999999994,"","","367f607fb172967e441d396dcb62d4dc",0,0,0,182,0,0
+"binary_dense_n100_t01_r0001","binary","dense","paper2026",100,1000,0.1,1,137814416,"MLFDR",0.05,"ok",TRUE,4.99,"","","a31d8a20f7c215bb51009f0998c4ce28",0,0,0,182,0,0
+"linear_sparse_n300_t01_r0001","linear","sparse","paper2026",300,1000,0.1,1,159865399,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","955cfb0baa514b2ee1071b72db2fb746",0,0,0,18,0,0
+"linear_sparse_n300_t01_r0001","linear","sparse","paper2026",300,1000,0.1,1,159865399,"MDACT",0.05,"ok",TRUE,0.0499999999999989,"","","ad3848ee86ba71a38f9241fa824c2ff7",0,0,0,18,0,0
+"linear_sparse_n300_t01_r0001","linear","sparse","paper2026",300,1000,0.1,1,159865399,"MLFDR",0.05,"ok",TRUE,2.03,"","","9165e3d30c7fdce04163c9450814d038",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0001","confounded","sparse","paper2026",300,1000,0.1,1,71380587,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","d75e21108aeb47ed1b08a8656ba833d5",0,0,0,15,0,0
+"confounded_sparse_n300_t01_r0001","confounded","sparse","paper2026",300,1000,0.1,1,71380587,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","eb0ab11ad10a35dfd1c2aca91e36d985",0,0,0,15,0,0
+"confounded_sparse_n300_t01_r0001","confounded","sparse","paper2026",300,1000,0.1,1,71380587,"MLFDR",0.05,"ok",TRUE,2.18,"","","bab38a5b414e919565fcbe5d2a231764",0,0,0,15,0,0
+"binary_sparse_n300_t01_r0001","binary","sparse","paper2026",300,1000,0.1,1,125908607,"HDMT",0.05,"ok",TRUE,0.00999999999999979,"","","01f62d555c54283cf291fbd48ef9fbef",0,0,0,20,0,0
+"binary_sparse_n300_t01_r0001","binary","sparse","paper2026",300,1000,0.1,1,125908607,"MDACT",0.05,"ok",TRUE,0.0400000000000009,"","","823b3c26feb9e2d0a9ec9d3f2ad27d19",0,0,0,20,0,0
+"binary_sparse_n300_t01_r0001","binary","sparse","paper2026",300,1000,0.1,1,125908607,"MLFDR",0.05,"ok",TRUE,0.869999999999999,"","","c3772da5a3bca25d68113af2a0ce797f",0,0,0,20,0,0
+"linear_dense_n300_t01_r0001","linear","dense","paper2026",300,1000,0.1,1,29183877,"HDMT",0.05,"ok",TRUE,0.0299999999999994,"","","3297d2ff34f6af231c0c9ff2eeb0e485",0,0,0,205,0,0
+"linear_dense_n300_t01_r0001","linear","dense","paper2026",300,1000,0.1,1,29183877,"MDACT",0.05,"ok",TRUE,0.0299999999999994,"","","8e8f3cc58d1f5936a1ed3fc931c227af",0,0,0,205,0,0
+"linear_dense_n300_t01_r0001","linear","dense","paper2026",300,1000,0.1,1,29183877,"MLFDR",0.05,"ok",TRUE,1.43,"","","c3059fb63db1a38c148b2cdcbbf5c214",0,0,0,205,0,0
+"confounded_dense_n300_t01_r0001","confounded","dense","paper2026",300,1000,0.1,1,143937032,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","6e80a901d2cf71a798fc5e7f09c26478",0,0,0,212,0,0
+"confounded_dense_n300_t01_r0001","confounded","dense","paper2026",300,1000,0.1,1,143937032,"MDACT",0.05,"ok",TRUE,0.0499999999999989,"","","25bd77d91251edce0fb5e23a3f988d6f",0,0,0,212,0,0
+"confounded_dense_n300_t01_r0001","confounded","dense","paper2026",300,1000,0.1,1,143937032,"MLFDR",0.05,"ok",TRUE,1.65,"","","f7baaed85c0f9a4cb2a1ed0bad33f69b",0,0,0,212,0,0
+"binary_dense_n300_t01_r0001","binary","dense","paper2026",300,1000,0.1,1,34869693,"HDMT",0.05,"ok",TRUE,0.0299999999999994,"","","cebadfd9427f55e0f33c61c96a89cd8d",0,0,0,193,0,0
+"binary_dense_n300_t01_r0001","binary","dense","paper2026",300,1000,0.1,1,34869693,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","4207ff0bf0d8411c73db221794690214",0,0,0,193,0,0
+"binary_dense_n300_t01_r0001","binary","dense","paper2026",300,1000,0.1,1,34869693,"MLFDR",0.05,"ok",TRUE,5.29,"","","0e92c64f5ea9ebea9174440e6eb3ece8",0,0,0,193,0,0
+"linear_sparse_n100_t02_r0001","linear","sparse","paper2026",100,1000,1,1,28317949,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","ea556089cc42ca07637e0aa197c51fa4",0,0,0,20,0,0
+"linear_sparse_n100_t02_r0001","linear","sparse","paper2026",100,1000,1,1,28317949,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","b8dba85cf9ee50c12b32f31d2bf0553c",0,0,0,20,0,0
+"linear_sparse_n100_t02_r0001","linear","sparse","paper2026",100,1000,1,1,28317949,"MLFDR",0.05,"ok",TRUE,2.32,"","","f4dc295ac101228a9d713c10264270c1",0,0,0,20,0,0
+"confounded_sparse_n100_t02_r0001","confounded","sparse","paper2026",100,1000,1,1,254026715,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","b11204a58564c1dd3e26b003da5fc200",0,0,0,16,0,0
+"confounded_sparse_n100_t02_r0001","confounded","sparse","paper2026",100,1000,1,1,254026715,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","38c531bdd87ec4e799995a70074b16fb",0,0,0,16,0,0
+"confounded_sparse_n100_t02_r0001","confounded","sparse","paper2026",100,1000,1,1,254026715,"MLFDR",0.05,"ok",TRUE,0.759999999999998,"","","3dc2160ca5c9204cab53001b76bbd1f9",0,0,0,16,0,0
+"binary_sparse_n100_t02_r0001","binary","sparse","paper2026",100,1000,1,1,20703180,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","50e8494f9842a630cf289259211978df",0,0,0,19,0,0
+"binary_sparse_n100_t02_r0001","binary","sparse","paper2026",100,1000,1,1,20703180,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","1478777ffb889c6be4c6067db184c234",0,0,0,19,0,0
+"binary_sparse_n100_t02_r0001","binary","sparse","paper2026",100,1000,1,1,20703180,"MLFDR",0.05,"ok",TRUE,2.34,"","","2d9cc96a47adcf56347e65cf2482917d",0,0,0,19,0,0
+"linear_dense_n100_t02_r0001","linear","dense","paper2026",100,1000,1,1,182452552,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","fa455fcf3e0cf7f86f36d8fc113451f1",0,0,0,181,0,0
+"linear_dense_n100_t02_r0001","linear","dense","paper2026",100,1000,1,1,182452552,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","eae267eaa50616e95cbdc4cd2477cd7e",0,0,0,181,0,0
+"linear_dense_n100_t02_r0001","linear","dense","paper2026",100,1000,1,1,182452552,"MLFDR",0.05,"ok",TRUE,0.359999999999999,"","","5f1ff108fcb4e5bb664c1013f97b48f8",0,0,0,181,0,0
+"confounded_dense_n100_t02_r0001","confounded","dense","paper2026",100,1000,1,1,185113183,"HDMT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","77224770e84028ed2e09359cb628dff5",0,0,0,201,0,0
+"confounded_dense_n100_t02_r0001","confounded","dense","paper2026",100,1000,1,1,185113183,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b8cdace8a0626cf79f2227ec5b7eb9c1",0,0,0,201,0,0
+"confounded_dense_n100_t02_r0001","confounded","dense","paper2026",100,1000,1,1,185113183,"MLFDR",0.05,"ok",TRUE,0.629999999999999,"","","b18bb0123f669671034a196477c7f269",0,0,0,201,0,0
+"binary_dense_n100_t02_r0001","binary","dense","paper2026",100,1000,1,1,49561216,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"","","09fd42bf715565d17369e1dbf03d9a28",0,0,0,215,0,0
+"binary_dense_n100_t02_r0001","binary","dense","paper2026",100,1000,1,1,49561216,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","a2f4a7aac9be6ab2f88982f8bc7f86b9",0,0,0,215,0,0
+"binary_dense_n100_t02_r0001","binary","dense","paper2026",100,1000,1,1,49561216,"MLFDR",0.05,"ok",TRUE,0.57,"","","5b5403c651503ee90e7c4edb9e6fdbda",0,0,0,215,0,0
+"linear_sparse_n300_t02_r0001","linear","sparse","paper2026",300,1000,1,1,267428329,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","2280c4c6f9647e618594ebb00543e8d7",3,1,2,20,0.333333333333333,0.1
+"linear_sparse_n300_t02_r0001","linear","sparse","paper2026",300,1000,1,1,267428329,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3a91f8791cc936b7bcc2f78c71e51eae",0,0,0,20,0,0
+"linear_sparse_n300_t02_r0001","linear","sparse","paper2026",300,1000,1,1,267428329,"MLFDR",0.05,"ok",TRUE,2.39,"","","23237175ef2f7a3807ea860b49f87498",0,0,0,20,0,0
+"confounded_sparse_n300_t02_r0001","confounded","sparse","paper2026",300,1000,1,1,220215318,"HDMT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b8562c8d9fba44b66498c61f33251a0a",0,0,0,21,0,0
+"confounded_sparse_n300_t02_r0001","confounded","sparse","paper2026",300,1000,1,1,220215318,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3bf4e2f4de47b0e046752fc83bf7419f",0,0,0,21,0,0
+"confounded_sparse_n300_t02_r0001","confounded","sparse","paper2026",300,1000,1,1,220215318,"MLFDR",0.05,"ok",TRUE,2.38,"","","44ce80c7a0df10ee4d56c795ba567839",0,0,0,21,0,0
+"binary_sparse_n300_t02_r0001","binary","sparse","paper2026",300,1000,1,1,80941569,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","8e087246a38a909bf6b3722012961484",0,0,0,19,0,0
+"binary_sparse_n300_t02_r0001","binary","sparse","paper2026",300,1000,1,1,80941569,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","e4f65a8276e92b48983cbfcaa7bcf399",0,0,0,19,0,0
+"binary_sparse_n300_t02_r0001","binary","sparse","paper2026",300,1000,1,1,80941569,"MLFDR",0.05,"ok",TRUE,2.22,"","","1dac82a7f71c17d0f9ed5ff54f937160",0,0,0,19,0,0
+"linear_dense_n300_t02_r0001","linear","dense","paper2026",300,1000,1,1,103893383,"HDMT",0.05,"ok",TRUE,0.0199999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","a1f5c36ec7cb6aa39e4b1b09d03ed821",0,0,0,176,0,0
+"linear_dense_n300_t02_r0001","linear","dense","paper2026",300,1000,1,1,103893383,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","cba4b861967ee2f03c572b407fcca763",0,0,0,176,0,0
+"linear_dense_n300_t02_r0001","linear","dense","paper2026",300,1000,1,1,103893383,"MLFDR",0.05,"ok",TRUE,0.380000000000003,"","","0963baef02a9cc2cec8e496e017bfeaf",0,0,0,176,0,0
+"confounded_dense_n300_t02_r0001","confounded","dense","paper2026",300,1000,1,1,120004200,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3fc42cb472a1ab23de40de5b3477a72b",0,0,0,204,0,0
+"confounded_dense_n300_t02_r0001","confounded","dense","paper2026",300,1000,1,1,120004200,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","6a6552e9583bf5b29f25857044a3cd74",0,0,0,204,0,0
+"confounded_dense_n300_t02_r0001","confounded","dense","paper2026",300,1000,1,1,120004200,"MLFDR",0.05,"ok",TRUE,0.41,"","","6b92ab95e5f9635160d5952f098461ad",0,0,0,204,0,0
+"binary_dense_n300_t02_r0001","binary","dense","paper2026",300,1000,1,1,224984879,"HDMT",0.05,"ok",TRUE,0.0100000000000016,"","","ea2d62c8abeaf6717d4df441cfeac0ad",0,0,0,197,0,0
+"binary_dense_n300_t02_r0001","binary","dense","paper2026",300,1000,1,1,224984879,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"","","565bc5e9af2d22b047df3426cc28cd5e",0,0,0,197,0,0
+"binary_dense_n300_t02_r0001","binary","dense","paper2026",300,1000,1,1,224984879,"MLFDR",0.05,"ok",TRUE,2.92,"","","86db70de67b736c084e478f0e26949d0",0,0,0,197,0,0
+"linear_sparse_n100_t03_r0001","linear","sparse","paper2026",100,1000,1.9,1,20412382,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e221e7ff722cfb5ad7978c37ec0fcffb",0,0,0,23,0,0
+"linear_sparse_n100_t03_r0001","linear","sparse","paper2026",100,1000,1.9,1,20412382,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f9f64c2f89ae351347642e726b51b7ce",0,0,0,23,0,0
+"linear_sparse_n100_t03_r0001","linear","sparse","paper2026",100,1000,1.9,1,20412382,"MLFDR",0.05,"ok",TRUE,1.7,"","","1d0d99ad026912d507970d260e206d1f",0,0,0,23,0,0
+"confounded_sparse_n100_t03_r0001","confounded","sparse","paper2026",100,1000,1.9,1,229117721,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c2fd5ea6ecbe8a33566d97672a30c62d",0,0,0,21,0,0
+"confounded_sparse_n100_t03_r0001","confounded","sparse","paper2026",100,1000,1.9,1,229117721,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","7a3d4041749152ad098a7813e0d7431c",0,0,0,21,0,0
+"confounded_sparse_n100_t03_r0001","confounded","sparse","paper2026",100,1000,1.9,1,229117721,"MLFDR",0.05,"ok",TRUE,0.390000000000001,"","","899ab3bc2577be93c993ca12b88d6a74",0,0,0,21,0,0
+"binary_sparse_n100_t03_r0001","binary","sparse","paper2026",100,1000,1.9,1,152860244,"HDMT",0.05,"ok",TRUE,0.0399999999999991,"","","dec4a139263abc2dd7ad4035a275ed99",0,0,0,26,0,0
+"binary_sparse_n100_t03_r0001","binary","sparse","paper2026",100,1000,1.9,1,152860244,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","50831b2d91766dcbc965aafa5a4b3941",0,0,0,26,0,0
+"binary_sparse_n100_t03_r0001","binary","sparse","paper2026",100,1000,1.9,1,152860244,"MLFDR",0.05,"ok",TRUE,1.51,"","","27e8c91b370adad9d835523687da9d62",0,0,0,26,0,0
+"linear_dense_n100_t03_r0001","linear","dense","paper2026",100,1000,1.9,1,146966518,"HDMT",0.05,"ok",TRUE,0.0100000000000016,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","315d9bd389a628cd153a92ea3c0016f2",0,0,0,196,0,0
+"linear_dense_n100_t03_r0001","linear","dense","paper2026",100,1000,1.9,1,146966518,"MDACT",0.05,"ok",TRUE,0.0500000000000007,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","840ba0e5e2b62f07eef400e050696f49",0,0,0,196,0,0
+"linear_dense_n100_t03_r0001","linear","dense","paper2026",100,1000,1.9,1,146966518,"MLFDR",0.05,"ok",TRUE,2.29,"","","73c319c5420f62aafc384560f9475ae2",0,0,0,196,0,0
+"confounded_dense_n100_t03_r0001","confounded","dense","paper2026",100,1000,1.9,1,28370320,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0f593706059f28bc10274cba348969fd",0,0,0,220,0,0
+"confounded_dense_n100_t03_r0001","confounded","dense","paper2026",100,1000,1.9,1,28370320,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","4f9de835351bf3ae79555ae8328b64bf",0,0,0,220,0,0
+"confounded_dense_n100_t03_r0001","confounded","dense","paper2026",100,1000,1.9,1,28370320,"MLFDR",0.05,"ok",TRUE,1.63,"","","e4233cfe18ea81274747103b1c32af8b",0,0,0,220,0,0
+"binary_dense_n100_t03_r0001","binary","dense","paper2026",100,1000,1.9,1,217141350,"HDMT",0.05,"ok",TRUE,0.0399999999999991,"","","513fbabd3c4c16b44717458d908200e0",0,0,0,192,0,0
+"binary_dense_n100_t03_r0001","binary","dense","paper2026",100,1000,1.9,1,217141350,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","95081dae62bdff8e20c6238b0a26699a",0,0,0,192,0,0
+"binary_dense_n100_t03_r0001","binary","dense","paper2026",100,1000,1.9,1,217141350,"MLFDR",0.05,"ok",TRUE,0.559999999999995,"","","ea6933e567fbad83a9cf7a86451b119d",0,0,0,192,0,0
+"linear_sparse_n300_t03_r0001","linear","sparse","paper2026",300,1000,1.9,1,35547479,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","8033471fdec9ed3975c01d95ff45034d",0,0,0,14,0,0
+"linear_sparse_n300_t03_r0001","linear","sparse","paper2026",300,1000,1.9,1,35547479,"MDACT",0.05,"ok",TRUE,0.0799999999999983,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","86f3a6e094bab4bc4c8677530438d892",0,0,0,14,0,0
+"linear_sparse_n300_t03_r0001","linear","sparse","paper2026",300,1000,1.9,1,35547479,"MLFDR",0.05,"ok",TRUE,0.329999999999998,"","","031f526aeec9a270acd15e160e72f062",0,0,0,14,0,0
+"confounded_sparse_n300_t03_r0001","confounded","sparse","paper2026",300,1000,1.9,1,88579337,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","87736ccdff70b3f6d42aeeccc7a2ad29",0,0,0,19,0,0
+"confounded_sparse_n300_t03_r0001","confounded","sparse","paper2026",300,1000,1.9,1,88579337,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","4317bf6203e130d0806b4731bd120948",0,0,0,19,0,0
+"confounded_sparse_n300_t03_r0001","confounded","sparse","paper2026",300,1000,1.9,1,88579337,"MLFDR",0.05,"ok",TRUE,0.330000000000005,"","","32015fb8525a4353adfc8b79553d667f",0,0,0,19,0,0
+"binary_sparse_n300_t03_r0001","binary","sparse","paper2026",300,1000,1.9,1,111255091,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"","","360b0908f885c8242a74ec7ba658a43e",1,1,0,16,1,0
+"binary_sparse_n300_t03_r0001","binary","sparse","paper2026",300,1000,1.9,1,111255091,"MDACT",0.05,"ok",TRUE,0.0799999999999983,"","","be7bbe63d4f9df18177a9250c1282877",1,1,0,16,1,0
+"binary_sparse_n300_t03_r0001","binary","sparse","paper2026",300,1000,1.9,1,111255091,"MLFDR",0.05,"ok",TRUE,2.39,"","","aa164649a287aa4a34cd4cd95e30b9b8",1,1,0,16,1,0
+"linear_dense_n300_t03_r0001","linear","dense","paper2026",300,1000,1.9,1,58874308,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e2bdd4d7ef7c483fc640d91035da1568",0,0,0,217,0,0
+"linear_dense_n300_t03_r0001","linear","dense","paper2026",300,1000,1.9,1,58874308,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","9ee0b95ea624247eb7946d425ded2039",0,0,0,217,0,0
+"linear_dense_n300_t03_r0001","linear","dense","paper2026",300,1000,1.9,1,58874308,"MLFDR",0.05,"ok",TRUE,1.45,"","","5d5d3b9ae32691a29957e603af3177dd",0,0,0,217,0,0
+"confounded_dense_n300_t03_r0001","confounded","dense","paper2026",300,1000,1.9,1,146248707,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e534f85781c121fa0775536cdfb29959",0,0,0,211,0,0
+"confounded_dense_n300_t03_r0001","confounded","dense","paper2026",300,1000,1.9,1,146248707,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","be5f4d49d87a4622d8845995eba8f1ad",0,0,0,211,0,0
+"confounded_dense_n300_t03_r0001","confounded","dense","paper2026",300,1000,1.9,1,146248707,"MLFDR",0.05,"ok",TRUE,2.62,"","","54188ef0b5b7b943c318d132bfdb0ecc",0,0,0,211,0,0
+"binary_dense_n300_t03_r0001","binary","dense","paper2026",300,1000,1.9,1,214862128,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"","","dadbd4322b282e3df82ac587a0e47c97",0,0,0,190,0,0
+"binary_dense_n300_t03_r0001","binary","dense","paper2026",300,1000,1.9,1,214862128,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","a7ec424d115e90e59b9b8f8308cfd7f7",0,0,0,190,0,0
+"binary_dense_n300_t03_r0001","binary","dense","paper2026",300,1000,1.9,1,214862128,"MLFDR",0.05,"ok",TRUE,1.55,"","","151a14c826828d3dc423108988083265",0,0,0,190,0,0
+"linear_sparse_n100_t01_r0002","linear","sparse","paper2026",100,1000,0.1,2,261478494,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","180f23b7fff356c9226d8b83059b9361",0,0,0,27,0,0
+"linear_sparse_n100_t01_r0002","linear","sparse","paper2026",100,1000,0.1,2,261478494,"MDACT",0.05,"ok",TRUE,0.0500000000000043,"","","5839856013caf0484ba931dd9efbb924",0,0,0,27,0,0
+"linear_sparse_n100_t01_r0002","linear","sparse","paper2026",100,1000,0.1,2,261478494,"MLFDR",0.05,"ok",TRUE,0.82,"","","5c8b450bf88af5f427c6634377b0221f",0,0,0,27,0,0
+"confounded_sparse_n100_t01_r0002","confounded","sparse","paper2026",100,1000,0.1,2,116147841,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","279e05adf19e982f49b7e6ce09bfa5dd",0,0,0,22,0,0
+"confounded_sparse_n100_t01_r0002","confounded","sparse","paper2026",100,1000,0.1,2,116147841,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","4ba6da351d2e7eb24695f5cd7213fa3d",0,0,0,22,0,0
+"confounded_sparse_n100_t01_r0002","confounded","sparse","paper2026",100,1000,0.1,2,116147841,"MLFDR",0.05,"ok",TRUE,1.51,"","","8cfe98767c2817101dee3d3b99b333fc",0,0,0,22,0,0
+"binary_sparse_n100_t01_r0002","binary","sparse","paper2026",100,1000,0.1,2,210424678,"HDMT",0.05,"ok",TRUE,0.0399999999999991,"","","122617ed4b4c072fb582210ecde45da6",0,0,0,18,0,0
+"binary_sparse_n100_t01_r0002","binary","sparse","paper2026",100,1000,0.1,2,210424678,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","4ec800df80abcbbacd193d61839a47f2",0,0,0,18,0,0
+"binary_sparse_n100_t01_r0002","binary","sparse","paper2026",100,1000,0.1,2,210424678,"MLFDR",0.05,"ok",TRUE,0.549999999999997,"","","ef209dcf3c4c3c29b1adce3b9a822845",0,0,0,18,0,0
+"linear_dense_n100_t01_r0002","linear","dense","paper2026",100,1000,0.1,2,43125317,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","f18374aa0278bc79bdbac1a60cd4690c",0,0,0,201,0,0
+"linear_dense_n100_t01_r0002","linear","dense","paper2026",100,1000,0.1,2,43125317,"MDACT",0.05,"ok",TRUE,0.0500000000000043,"","","dc8aec5a19f156fda50025f75f494cf4",0,0,0,201,0,0
+"linear_dense_n100_t01_r0002","linear","dense","paper2026",100,1000,0.1,2,43125317,"MLFDR",0.05,"ok",TRUE,1.15,"","","15084ac787aeed60e43c05f20e3843d9",0,0,0,201,0,0
+"confounded_dense_n100_t01_r0002","confounded","dense","paper2026",100,1000,0.1,2,87171913,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","4066cf5a8db0df9b9bd8e807455a9dbe",0,0,0,191,0,0
+"confounded_dense_n100_t01_r0002","confounded","dense","paper2026",100,1000,0.1,2,87171913,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","1163ca36109378671cbd55b98c9719d1",0,0,0,191,0,0
+"confounded_dense_n100_t01_r0002","confounded","dense","paper2026",100,1000,0.1,2,87171913,"MLFDR",0.05,"ok",TRUE,1.73,"","","aa64130da77d32dc36716c0b68e8b40b",0,0,0,191,0,0
+"binary_dense_n100_t01_r0002","binary","dense","paper2026",100,1000,0.1,2,250475350,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","0d0ae2ed2549d8a803417904e4e32b4e",0,0,0,203,0,0
+"binary_dense_n100_t01_r0002","binary","dense","paper2026",100,1000,0.1,2,250475350,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","1523d6d05b53b097be819dafcc90b10d",0,0,0,203,0,0
+"binary_dense_n100_t01_r0002","binary","dense","paper2026",100,1000,0.1,2,250475350,"MLFDR",0.05,"ok",TRUE,3.85,"","","a35ceae2bf26e5e97f453477f9eaff4e",0,0,0,203,0,0
+"linear_sparse_n300_t01_r0002","linear","sparse","paper2026",300,1000,0.1,2,228119782,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","9b3cef1586db54a645502543a7b79fe3",0,0,0,26,0,0
+"linear_sparse_n300_t01_r0002","linear","sparse","paper2026",300,1000,0.1,2,228119782,"MDACT",0.05,"ok",TRUE,0.029999999999994,"","","7ae80da59fe7a1eda9d58d72ad04428a",0,0,0,26,0,0
+"linear_sparse_n300_t01_r0002","linear","sparse","paper2026",300,1000,0.1,2,228119782,"MLFDR",0.05,"ok",TRUE,1.3,"","","d38049f792a1be3586652f1ccf7bcf88",0,0,0,26,0,0
+"confounded_sparse_n300_t01_r0002","confounded","sparse","paper2026",300,1000,0.1,2,178175269,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","a5587f8af3466bd76c5e6268ec78da98",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0002","confounded","sparse","paper2026",300,1000,0.1,2,178175269,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","dabad0a418554a64e32e9b7b888940f3",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0002","confounded","sparse","paper2026",300,1000,0.1,2,178175269,"MLFDR",0.05,"ok",TRUE,0.780000000000001,"","","28820dd0d25e65d524d81703b4dff99a",0,0,0,18,0,0
+"binary_sparse_n300_t01_r0002","binary","sparse","paper2026",300,1000,0.1,2,34248966,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","5f636da2d0b77910b4dca1c4760c6610",0,0,0,26,0,0
+"binary_sparse_n300_t01_r0002","binary","sparse","paper2026",300,1000,0.1,2,34248966,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","4e3036db53996f704872f359d91870db",0,0,0,26,0,0
+"binary_sparse_n300_t01_r0002","binary","sparse","paper2026",300,1000,0.1,2,34248966,"MLFDR",0.05,"ok",TRUE,1.69,"","","231e48a1a7cc969c697cb169e071fa8f",0,0,0,26,0,0
+"linear_dense_n300_t01_r0002","linear","dense","paper2026",300,1000,0.1,2,10297799,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","d41d0a7771361e251902a9917c3b017c",0,0,0,187,0,0
+"linear_dense_n300_t01_r0002","linear","dense","paper2026",300,1000,0.1,2,10297799,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","b53bde599e8864a0bbd3ddac8d1e1dad",0,0,0,187,0,0
+"linear_dense_n300_t01_r0002","linear","dense","paper2026",300,1000,0.1,2,10297799,"MLFDR",0.05,"ok",TRUE,2.03,"","","2c447d227f0a9f58ca0ca1864e20ae11",0,0,0,187,0,0
+"confounded_dense_n300_t01_r0002","confounded","dense","paper2026",300,1000,0.1,2,8435779,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","d3102d16d549c9531c6a1ff2c8889ac9",0,0,0,176,0,0
+"confounded_dense_n300_t01_r0002","confounded","dense","paper2026",300,1000,0.1,2,8435779,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","83c99217ce896ee25f12a157a2778161",1,0,1,176,0,0.00568181818181818
+"confounded_dense_n300_t01_r0002","confounded","dense","paper2026",300,1000,0.1,2,8435779,"MLFDR",0.05,"ok",TRUE,2.7,"","","d037cb0a2e2ba6dec5192a5433f9225d",0,0,0,176,0,0
+"binary_dense_n300_t01_r0002","binary","dense","paper2026",300,1000,0.1,2,169663413,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","3a50d18a2c63b89186b03b38398e4994",0,0,0,198,0,0
+"binary_dense_n300_t01_r0002","binary","dense","paper2026",300,1000,0.1,2,169663413,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"","","4a3dff323db1eb65514e957311de1096",0,0,0,198,0,0
+"binary_dense_n300_t01_r0002","binary","dense","paper2026",300,1000,0.1,2,169663413,"MLFDR",0.05,"ok",TRUE,5.95,"","","bf6683b4b6c354f2a68e8a0d2ab2f850",0,0,0,198,0,0
+"linear_sparse_n100_t02_r0002","linear","sparse","paper2026",100,1000,1,2,223226816,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"","","0c05d85950e5fb3dc0d2cf3f7d028951",0,0,0,11,0,0
+"linear_sparse_n100_t02_r0002","linear","sparse","paper2026",100,1000,1,2,223226816,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","5a8ddf72d296649612840b7f6de11f9d",0,0,0,11,0,0
+"linear_sparse_n100_t02_r0002","linear","sparse","paper2026",100,1000,1,2,223226816,"MLFDR",0.05,"ok",TRUE,0.729999999999997,"","","c0f1c7369fcf4218b0b06d64f3df27d7",0,0,0,11,0,0
+"confounded_sparse_n100_t02_r0002","confounded","sparse","paper2026",100,1000,1,2,38661050,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"","","c7fec76d309c2f15e87710dc482faf90",2,0,2,18,0,0.111111111111111
+"confounded_sparse_n100_t02_r0002","confounded","sparse","paper2026",100,1000,1,2,38661050,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","980da6e32b8548ee1c2a96d8fc921ccc",2,0,2,18,0,0.111111111111111
+"confounded_sparse_n100_t02_r0002","confounded","sparse","paper2026",100,1000,1,2,38661050,"MLFDR",0.05,"ok",TRUE,0.940000000000005,"","","f5ee82ee1ba9b513dd1eb068463d875e",0,0,0,18,0,0
+"binary_sparse_n100_t02_r0002","binary","sparse","paper2026",100,1000,1,2,204160124,"HDMT",0.05,"ok",TRUE,0.0200000000000031,"","","3790253d5c13ec4659f4758563dcedca",0,0,0,16,0,0
+"binary_sparse_n100_t02_r0002","binary","sparse","paper2026",100,1000,1,2,204160124,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","02e897fb47c54f31e1ad97a05c986555",0,0,0,16,0,0
+"binary_sparse_n100_t02_r0002","binary","sparse","paper2026",100,1000,1,2,204160124,"MLFDR",0.05,"ok",TRUE,1.88,"","","7822597b3643a301b35ed06a127b745d",0,0,0,16,0,0
+"linear_dense_n100_t02_r0002","linear","dense","paper2026",100,1000,1,2,4324436,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","34878ce70386c64973eaa7302928554d",0,0,0,177,0,0
+"linear_dense_n100_t02_r0002","linear","dense","paper2026",100,1000,1,2,4324436,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","fc68c9682184eae605073d8167d57c7a",0,0,0,177,0,0
+"linear_dense_n100_t02_r0002","linear","dense","paper2026",100,1000,1,2,4324436,"MLFDR",0.05,"ok",TRUE,0.670000000000002,"","","358f3221d4f1ea1a73fc0ce8655bc90d",0,0,0,177,0,0
+"confounded_dense_n100_t02_r0002","confounded","dense","paper2026",100,1000,1,2,81614635,"HDMT",0.05,"ok",TRUE,0.00999999999999801,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c0c6c57fa18064c2de635c4b7f40d4c8",0,0,0,188,0,0
+"confounded_dense_n100_t02_r0002","confounded","dense","paper2026",100,1000,1,2,81614635,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e4e0d7719d11cd60a709f2f22f8095ec",0,0,0,188,0,0
+"confounded_dense_n100_t02_r0002","confounded","dense","paper2026",100,1000,1,2,81614635,"MLFDR",0.05,"ok",TRUE,1.02999999999999,"","","35d3da4071497434cf6b0ef41f2e4d42",0,0,0,188,0,0
+"binary_dense_n100_t02_r0002","binary","dense","paper2026",100,1000,1,2,226199774,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","bd8b67e5e913f8d3aadf4658be5176f4",0,0,0,194,0,0
+"binary_dense_n100_t02_r0002","binary","dense","paper2026",100,1000,1,2,226199774,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","ecfd5b87e201504b7ec489482333d4aa",0,0,0,194,0,0
+"binary_dense_n100_t02_r0002","binary","dense","paper2026",100,1000,1,2,226199774,"MLFDR",0.05,"ok",TRUE,0.700000000000003,"","","6b1a199d10dd0797947258015e556840",0,0,0,194,0,0
+"linear_sparse_n300_t02_r0002","linear","sparse","paper2026",300,1000,1,2,211834849,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","fc5a63f578da565492f3b19940558684",0,0,0,25,0,0
+"linear_sparse_n300_t02_r0002","linear","sparse","paper2026",300,1000,1,2,211834849,"MDACT",0.05,"ok",TRUE,0.0500000000000043,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","aadef179aba1548bb2a66c69ca7659c1",0,0,0,25,0,0
+"linear_sparse_n300_t02_r0002","linear","sparse","paper2026",300,1000,1,2,211834849,"MLFDR",0.05,"ok",TRUE,0.649999999999999,"","","c9ff626aabe25c4ddc2bee3be32dbd69",0,0,0,25,0,0
+"confounded_sparse_n300_t02_r0002","confounded","sparse","paper2026",300,1000,1,2,57731258,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3b0405543ae680a63bd21bf0eed81a98",0,0,0,13,0,0
+"confounded_sparse_n300_t02_r0002","confounded","sparse","paper2026",300,1000,1,2,57731258,"MDACT",0.05,"ok",TRUE,0.0399999999999991,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b701e70c7f2739dfdd092364024636e0",0,0,0,13,0,0
+"confounded_sparse_n300_t02_r0002","confounded","sparse","paper2026",300,1000,1,2,57731258,"MLFDR",0.05,"ok",TRUE,1.23,"","","077b200f6a509a7702aa4fc706d4b731",0,0,0,13,0,0
+"binary_sparse_n300_t02_r0002","binary","sparse","paper2026",300,1000,1,2,41779828,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","c6a50dfcdb9fdc73104cbd3c508d0338",0,0,0,15,0,0
+"binary_sparse_n300_t02_r0002","binary","sparse","paper2026",300,1000,1,2,41779828,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","4fd70f78737a6a6a7937a111ff93d844",0,0,0,15,0,0
+"binary_sparse_n300_t02_r0002","binary","sparse","paper2026",300,1000,1,2,41779828,"MLFDR",0.05,"ok",TRUE,1.22,"","","b3db31da83117cffbacb94f2fe016324",0,0,0,15,0,0
+"linear_dense_n300_t02_r0002","linear","dense","paper2026",300,1000,1,2,1849221,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f2990b8f9ca74588063f137211e4b211",0,0,0,176,0,0
+"linear_dense_n300_t02_r0002","linear","dense","paper2026",300,1000,1,2,1849221,"MDACT",0.05,"ok",TRUE,0.029999999999994,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b598d177bd29914757c1900b4efd0442",0,0,0,176,0,0
+"linear_dense_n300_t02_r0002","linear","dense","paper2026",300,1000,1,2,1849221,"MLFDR",0.05,"ok",TRUE,1.11000000000001,"","","38ece090e3c0b3de0eb1c1b4eb2375d8",0,0,0,176,0,0
+"confounded_dense_n300_t02_r0002","confounded","dense","paper2026",300,1000,1,2,209995067,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","8ca61e08d3e10db419514c3ed4880e64",1,0,1,172,0,0.00581395348837209
+"confounded_dense_n300_t02_r0002","confounded","dense","paper2026",300,1000,1,2,209995067,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","57feff74fdddd9448ac936d2f3f8d848",1,0,1,172,0,0.00581395348837209
+"confounded_dense_n300_t02_r0002","confounded","dense","paper2026",300,1000,1,2,209995067,"MLFDR",0.05,"ok",TRUE,1.58,"","","895254faa3980289728c73bdc5eb78c5",0,0,0,172,0,0
+"binary_dense_n300_t02_r0002","binary","dense","paper2026",300,1000,1,2,200297949,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","0ca61e707fef3d5840d19349c2bb9c43",0,0,0,210,0,0
+"binary_dense_n300_t02_r0002","binary","dense","paper2026",300,1000,1,2,200297949,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","b740105cf6de4a383621c5079a601a29",0,0,0,210,0,0
+"binary_dense_n300_t02_r0002","binary","dense","paper2026",300,1000,1,2,200297949,"MLFDR",0.05,"ok",TRUE,1.28,"","","ce3910d126343835ca88c2e257c20142",0,0,0,210,0,0
+"linear_sparse_n100_t03_r0002","linear","sparse","paper2026",100,1000,1.9,2,94227296,"HDMT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","312b5266d71ce65268eef6652e5937ca",0,0,0,17,0,0
+"linear_sparse_n100_t03_r0002","linear","sparse","paper2026",100,1000,1.9,2,94227296,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","ab1ee5a2f15a3889c58b6340a61ca8a0",0,0,0,17,0,0
+"linear_sparse_n100_t03_r0002","linear","sparse","paper2026",100,1000,1.9,2,94227296,"MLFDR",0.05,"ok",TRUE,3.09,"","","641392ee190348d05a6170ea69627e35",0,0,0,17,0,0
+"confounded_sparse_n100_t03_r0002","confounded","sparse","paper2026",100,1000,1.9,2,48104129,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","31f7ba011023ec8d9a59f8f19af0a1d5",0,0,0,22,0,0
+"confounded_sparse_n100_t03_r0002","confounded","sparse","paper2026",100,1000,1.9,2,48104129,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","228e2390ce762a3842cbbff6811bbc7c",0,0,0,22,0,0
+"confounded_sparse_n100_t03_r0002","confounded","sparse","paper2026",100,1000,1.9,2,48104129,"MLFDR",0.05,"ok",TRUE,0.359999999999999,"","","f37f301b2a619edba843a8b691742e80",0,0,0,22,0,0
+"binary_sparse_n100_t03_r0002","binary","sparse","paper2026",100,1000,1.9,2,212105206,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","ddeec84c69588d1f13138612dfa54af1",0,0,0,21,0,0
+"binary_sparse_n100_t03_r0002","binary","sparse","paper2026",100,1000,1.9,2,212105206,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","a0eb84cdcbb94223f9d240e98b4ebcb8",0,0,0,21,0,0
+"binary_sparse_n100_t03_r0002","binary","sparse","paper2026",100,1000,1.9,2,212105206,"MLFDR",0.05,"ok",TRUE,1.5,"","","b8436ce35fe57f3a9ef48c720dd29ce8",0,0,0,21,0,0
+"linear_dense_n100_t03_r0002","linear","dense","paper2026",100,1000,1.9,2,62074834,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","283bf2e47c0bdc7963343845c987d197",0,0,0,200,0,0
+"linear_dense_n100_t03_r0002","linear","dense","paper2026",100,1000,1.9,2,62074834,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","558e95b28b1cd7fddde446c1a470eab9",0,0,0,200,0,0
+"linear_dense_n100_t03_r0002","linear","dense","paper2026",100,1000,1.9,2,62074834,"MLFDR",0.05,"ok",TRUE,1.06,"","","058b0e52b4a9b1a365e5331b5000b17c",0,0,0,200,0,0
+"confounded_dense_n100_t03_r0002","confounded","dense","paper2026",100,1000,1.9,2,231630133,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0e3d89c7ffa8a067d496a28f6192a130",0,0,0,205,0,0
+"confounded_dense_n100_t03_r0002","confounded","dense","paper2026",100,1000,1.9,2,231630133,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f913484b5f13c80db01442102fac4f57",0,0,0,205,0,0
+"confounded_dense_n100_t03_r0002","confounded","dense","paper2026",100,1000,1.9,2,231630133,"MLFDR",0.05,"ok",TRUE,1.87,"","","342456db32acb81a4fd40a14d6fe6e8d",0,0,0,205,0,0
+"binary_dense_n100_t03_r0002","binary","dense","paper2026",100,1000,1.9,2,66017287,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","4f6e643519fd4b40e999097642ed19b2",0,0,0,191,0,0
+"binary_dense_n100_t03_r0002","binary","dense","paper2026",100,1000,1.9,2,66017287,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","fd51875572c9d46e1a503115b5bc7454",0,0,0,191,0,0
+"binary_dense_n100_t03_r0002","binary","dense","paper2026",100,1000,1.9,2,66017287,"MLFDR",0.05,"ok",TRUE,1.42,"","","e79b5922895556969f3bb3e733f7e9d6",0,0,0,191,0,0
+"linear_sparse_n300_t03_r0002","linear","sparse","paper2026",300,1000,1.9,2,135593076,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","2610cccd563ca1748c56147e0456f9d2",0,0,0,16,0,0
+"linear_sparse_n300_t03_r0002","linear","sparse","paper2026",300,1000,1.9,2,135593076,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","57ac5fc432d3e93feaa9ea6d3f69d62c",0,0,0,16,0,0
+"linear_sparse_n300_t03_r0002","linear","sparse","paper2026",300,1000,1.9,2,135593076,"MLFDR",0.05,"ok",TRUE,0.629999999999995,"","","8c2462c4bf0e79a2dd5f741e8526017e",0,0,0,16,0,0
+"confounded_sparse_n300_t03_r0002","confounded","sparse","paper2026",300,1000,1.9,2,223691280,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c47372ab058b2db781cd72ad90f3e1ec",0,0,0,29,0,0
+"confounded_sparse_n300_t03_r0002","confounded","sparse","paper2026",300,1000,1.9,2,223691280,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e11d095c7bf4f507b71ac13e6d7e85a5",1,0,1,29,0,0.0344827586206897
+"confounded_sparse_n300_t03_r0002","confounded","sparse","paper2026",300,1000,1.9,2,223691280,"MLFDR",0.05,"ok",TRUE,0.450000000000003,"","","5bc48e03c0a0986a1424c7ff04f4860f",0,0,0,29,0,0
+"binary_sparse_n300_t03_r0002","binary","sparse","paper2026",300,1000,1.9,2,229200467,"HDMT",0.05,"ok",TRUE,0.0299999999999869,"","","f10f384ecbd3b1eaff5e6e32e16d30d6",1,1,0,27,1,0
+"binary_sparse_n300_t03_r0002","binary","sparse","paper2026",300,1000,1.9,2,229200467,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","0d3ad4c04267cd98b37e3c0dd7160735",0,0,0,27,0,0
+"binary_sparse_n300_t03_r0002","binary","sparse","paper2026",300,1000,1.9,2,229200467,"MLFDR",0.05,"ok",TRUE,1,"","","71434c36a8c6aebfcbed35aed7fa3ac9",0,0,0,27,0,0
+"linear_dense_n300_t03_r0002","linear","dense","paper2026",300,1000,1.9,2,199742472,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","27ecde6c97494b8861c6067ae8b634ef",0,0,0,199,0,0
+"linear_dense_n300_t03_r0002","linear","dense","paper2026",300,1000,1.9,2,199742472,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","ea58a1a71122ffb791e5a47077aaa3b3",0,0,0,199,0,0
+"linear_dense_n300_t03_r0002","linear","dense","paper2026",300,1000,1.9,2,199742472,"MLFDR",0.05,"ok",TRUE,1.09999999999999,"","","a455d9b4b2d4736ff5216e6faf020344",0,0,0,199,0,0
+"confounded_dense_n300_t03_r0002","confounded","dense","paper2026",300,1000,1.9,2,35183312,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b254d03bfea8f4d856c98d98e7c97499",0,0,0,206,0,0
+"confounded_dense_n300_t03_r0002","confounded","dense","paper2026",300,1000,1.9,2,35183312,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","731a30ce7089c2af15ee7407e20114ef",0,0,0,206,0,0
+"confounded_dense_n300_t03_r0002","confounded","dense","paper2026",300,1000,1.9,2,35183312,"MLFDR",0.05,"ok",TRUE,1.45999999999999,"","","1e69089e967d8a5cb33b65251d1c1add",0,0,0,206,0,0
+"binary_dense_n300_t03_r0002","binary","dense","paper2026",300,1000,1.9,2,246037823,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"","","73fbe3195c77fa4130957cb09ce8ef94",0,0,0,193,0,0
+"binary_dense_n300_t03_r0002","binary","dense","paper2026",300,1000,1.9,2,246037823,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"","","d990addcee9b11f78c3ac0dac58b740e",0,0,0,193,0,0
+"binary_dense_n300_t03_r0002","binary","dense","paper2026",300,1000,1.9,2,246037823,"MLFDR",0.05,"ok",TRUE,1.38,"","","04cd8af9ec7832dee037c678a9df8c8e",0,0,0,193,0,0
+"linear_sparse_n100_t01_r0003","linear","sparse","paper2026",100,1000,0.1,3,232894510,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","5a29755ceabb22476e82265f587a1b16",0,0,0,23,0,0
+"linear_sparse_n100_t01_r0003","linear","sparse","paper2026",100,1000,0.1,3,232894510,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","b8ef531a46c2181f5c4436670a55b8df",0,0,0,23,0,0
+"linear_sparse_n100_t01_r0003","linear","sparse","paper2026",100,1000,0.1,3,232894510,"MLFDR",0.05,"ok",TRUE,0.739999999999995,"","","2d1c1d61778685d43e2e80f2fcd65d1f",0,0,0,23,0,0
+"confounded_sparse_n100_t01_r0003","confounded","sparse","paper2026",100,1000,0.1,3,195670321,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","75687b204e7ef49ab03a5bde1b130e52",0,0,0,13,0,0
+"confounded_sparse_n100_t01_r0003","confounded","sparse","paper2026",100,1000,0.1,3,195670321,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","46e77fe50c5d4b27c7b824b4c794b873",0,0,0,13,0,0
+"confounded_sparse_n100_t01_r0003","confounded","sparse","paper2026",100,1000,0.1,3,195670321,"MLFDR",0.05,"ok",TRUE,1.45,"","","ed109554268b874607eccababeec0fc1",0,0,0,13,0,0
+"binary_sparse_n100_t01_r0003","binary","sparse","paper2026",100,1000,0.1,3,73532363,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"","","d453c431fd8df0c334a2ab3faeb53c40",0,0,0,25,0,0
+"binary_sparse_n100_t01_r0003","binary","sparse","paper2026",100,1000,0.1,3,73532363,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","850df8e14bd0be3053116f588f172795",0,0,0,25,0,0
+"binary_sparse_n100_t01_r0003","binary","sparse","paper2026",100,1000,0.1,3,73532363,"MLFDR",0.05,"ok",TRUE,3.14,"","","10fe5f42475f08f01f1b0559464ed6f0",0,0,0,25,0,0
+"linear_dense_n100_t01_r0003","linear","dense","paper2026",100,1000,0.1,3,192848410,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","be3bb4aea0ee7a1643ae7af4cd01d6d8",0,0,0,212,0,0
+"linear_dense_n100_t01_r0003","linear","dense","paper2026",100,1000,0.1,3,192848410,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","13a16fabc17b31b012679525ed8e4a55",0,0,0,212,0,0
+"linear_dense_n100_t01_r0003","linear","dense","paper2026",100,1000,0.1,3,192848410,"MLFDR",0.05,"ok",TRUE,2.64,"","","980135c3987f987adf4f4dbb7058e601",0,0,0,212,0,0
+"confounded_dense_n100_t01_r0003","confounded","dense","paper2026",100,1000,0.1,3,8119143,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","ffae51ecdcf0fd10c1c0e24f91ce89f0",0,0,0,218,0,0
+"confounded_dense_n100_t01_r0003","confounded","dense","paper2026",100,1000,0.1,3,8119143,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","afd3a9c9526e559fe58bc63d5481506f",0,0,0,218,0,0
+"confounded_dense_n100_t01_r0003","confounded","dense","paper2026",100,1000,0.1,3,8119143,"MLFDR",0.05,"ok",TRUE,1.42999999999999,"","","b00e330bbdc740c38a954a73a3f7d75d",0,0,0,218,0,0
+"binary_dense_n100_t01_r0003","binary","dense","paper2026",100,1000,0.1,3,54497733,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","91516b1a29852bc2dae8af48ba8c95f9",0,0,0,182,0,0
+"binary_dense_n100_t01_r0003","binary","dense","paper2026",100,1000,0.1,3,54497733,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","0085e7fc9ddca3af6ea740bf3f6aff6d",0,0,0,182,0,0
+"binary_dense_n100_t01_r0003","binary","dense","paper2026",100,1000,0.1,3,54497733,"MLFDR",0.05,"ok",TRUE,2.16,"","","850a6724297ac858c276511b2c19e3d6",0,0,0,182,0,0
+"linear_sparse_n300_t01_r0003","linear","sparse","paper2026",300,1000,0.1,3,151704262,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","65f780e1df2a3cb1369612e019e41ec0",0,0,0,15,0,0
+"linear_sparse_n300_t01_r0003","linear","sparse","paper2026",300,1000,0.1,3,151704262,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","9d10918bd43d2f2b7a286cbd9be495ee",0,0,0,15,0,0
+"linear_sparse_n300_t01_r0003","linear","sparse","paper2026",300,1000,0.1,3,151704262,"MLFDR",0.05,"ok",TRUE,0.780000000000001,"","","98d291cbe157cb42328be3a53640311f",0,0,0,15,0,0
+"confounded_sparse_n300_t01_r0003","confounded","sparse","paper2026",300,1000,0.1,3,214949716,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","3bdc8ae83bc099385e2a0daf16e82f43",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0003","confounded","sparse","paper2026",300,1000,0.1,3,214949716,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","22651725abb926468aef3f87de0399d6",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0003","confounded","sparse","paper2026",300,1000,0.1,3,214949716,"MLFDR",0.05,"ok",TRUE,1.90000000000001,"","","0cac308d9c7e118bf7b22735bc2666f3",0,0,0,18,0,0
+"binary_sparse_n300_t01_r0003","binary","sparse","paper2026",300,1000,0.1,3,113219947,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","d8b789a462b636626d5c0f719b3b4d35",0,0,0,21,0,0
+"binary_sparse_n300_t01_r0003","binary","sparse","paper2026",300,1000,0.1,3,113219947,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","897e9818eae6477c9a041f97a7ef86a9",0,0,0,21,0,0
+"binary_sparse_n300_t01_r0003","binary","sparse","paper2026",300,1000,0.1,3,113219947,"MLFDR",0.05,"ok",TRUE,3.92,"","","dc9fd679bd17e523fc129a487298c41f",0,0,0,21,0,0
+"linear_dense_n300_t01_r0003","linear","dense","paper2026",300,1000,0.1,3,121014448,"HDMT",0.05,"ok",TRUE,0.0299999999999869,"","","f44b6e7fc74aa58004dadf0594b7e414",0,0,0,194,0,0
+"linear_dense_n300_t01_r0003","linear","dense","paper2026",300,1000,0.1,3,121014448,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","cb73b0dc3b6a1022d00c0a0689f7c623",0,0,0,194,0,0
+"linear_dense_n300_t01_r0003","linear","dense","paper2026",300,1000,0.1,3,121014448,"MLFDR",0.05,"ok",TRUE,2.38,"","","44124f006aed765f727db1ab8a550e53",0,0,0,194,0,0
+"confounded_dense_n300_t01_r0003","confounded","dense","paper2026",300,1000,0.1,3,4262009,"HDMT",0.05,"ok",TRUE,0.0400000000000063,"","","32c697465d6b86b9793e05c12e7e6826",0,0,0,209,0,0
+"confounded_dense_n300_t01_r0003","confounded","dense","paper2026",300,1000,0.1,3,4262009,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","7010c98d379874553112b6403bdc1939",0,0,0,209,0,0
+"confounded_dense_n300_t01_r0003","confounded","dense","paper2026",300,1000,0.1,3,4262009,"MLFDR",0.05,"ok",TRUE,1.34,"","","40d008c4c8bae82d643172eeb02588db",0,0,0,209,0,0
+"binary_dense_n300_t01_r0003","binary","dense","paper2026",300,1000,0.1,3,39654611,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","358fe5f53c5ac13ffdb8353d0a0e4523",0,0,0,186,0,0
+"binary_dense_n300_t01_r0003","binary","dense","paper2026",300,1000,0.1,3,39654611,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","bf255aeea45ac1f109ac14718f025e5a",0,0,0,186,0,0
+"binary_dense_n300_t01_r0003","binary","dense","paper2026",300,1000,0.1,3,39654611,"MLFDR",0.05,"ok",TRUE,3.31999999999999,"","","7b3a6233a859a872b748a456b9a1fbbd",0,0,0,186,0,0
+"linear_sparse_n100_t02_r0003","linear","sparse","paper2026",100,1000,1,3,266468563,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","d4d7270fabcf562e636784297f5d3651",0,0,0,19,0,0
+"linear_sparse_n100_t02_r0003","linear","sparse","paper2026",100,1000,1,3,266468563,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","2d490df54b9ac2976956bd0eb3371fcd",0,0,0,19,0,0
+"linear_sparse_n100_t02_r0003","linear","sparse","paper2026",100,1000,1,3,266468563,"MLFDR",0.05,"ok",TRUE,2.02,"","","06d1358807bd7ba70507e94af32bde2d",0,0,0,19,0,0
+"confounded_sparse_n100_t02_r0003","confounded","sparse","paper2026",100,1000,1,3,264766446,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","203cc1d87bacf12dda3e108322cc83a6",0,0,0,23,0,0
+"confounded_sparse_n100_t02_r0003","confounded","sparse","paper2026",100,1000,1,3,264766446,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"","","399c0f37ab4cdce7fe2013c250016624",0,0,0,23,0,0
+"confounded_sparse_n100_t02_r0003","confounded","sparse","paper2026",100,1000,1,3,264766446,"MLFDR",0.05,"ok",TRUE,1.14999999999999,"","","84871f23ab164bce85846fe6ad94b9a6",0,0,0,23,0,0
+"binary_sparse_n100_t02_r0003","binary","sparse","paper2026",100,1000,1,3,133558457,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","bd4fb9b53c0a038f05a2141326ba74cf",0,0,0,25,0,0
+"binary_sparse_n100_t02_r0003","binary","sparse","paper2026",100,1000,1,3,133558457,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","59bc53f86396e172a18f547f3c82ca14",0,0,0,25,0,0
+"binary_sparse_n100_t02_r0003","binary","sparse","paper2026",100,1000,1,3,133558457,"MLFDR",0.05,"ok",TRUE,1.11999999999999,"","","d3efa1719c31035df56889fcdbabd452",0,0,0,25,0,0
+"linear_dense_n100_t02_r0003","linear","dense","paper2026",100,1000,1,3,122855862,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0a3da2551e68963e11eeab6ffdfdadf3",0,0,0,216,0,0
+"linear_dense_n100_t02_r0003","linear","dense","paper2026",100,1000,1,3,122855862,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","62bd40565db5f49ebc69fc127443c9ec",0,0,0,216,0,0
+"linear_dense_n100_t02_r0003","linear","dense","paper2026",100,1000,1,3,122855862,"MLFDR",0.05,"ok",TRUE,1.09999999999999,"","","2f4b7c76a5a00b2ef501066a0f33fd16",0,0,0,216,0,0
+"confounded_dense_n100_t02_r0003","confounded","dense","paper2026",100,1000,1,3,210395789,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","494bc39e0a8483dc6e22af46e46400b0",1,1,0,203,1,0
+"confounded_dense_n100_t02_r0003","confounded","dense","paper2026",100,1000,1,3,210395789,"MDACT",0.05,"ok",TRUE,0.0299999999999869,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3a32aa72c84d80eb0f735d2cf4421290",1,1,0,203,1,0
+"confounded_dense_n100_t02_r0003","confounded","dense","paper2026",100,1000,1,3,210395789,"MLFDR",0.05,"ok",TRUE,2.39,"","","2b1cc6279fa662ce1d00d1b122a49d63",0,0,0,203,0,0
+"binary_dense_n100_t02_r0003","binary","dense","paper2026",100,1000,1,3,117645133,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"","","1ab01678710ba5ed0f78fd37fb1f2299",0,0,0,172,0,0
+"binary_dense_n100_t02_r0003","binary","dense","paper2026",100,1000,1,3,117645133,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"","","5239cbbafcfce1692b9828a96a4397c3",0,0,0,172,0,0
+"binary_dense_n100_t02_r0003","binary","dense","paper2026",100,1000,1,3,117645133,"MLFDR",0.05,"ok",TRUE,2.53999999999999,"","","3f4f1f3e626a5494afb52aecdbb12008",0,0,0,172,0,0
+"linear_sparse_n300_t02_r0003","linear","sparse","paper2026",300,1000,1,3,155976880,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","1a1a629677122c32d181882317eb9179",0,0,0,29,0,0
+"linear_sparse_n300_t02_r0003","linear","sparse","paper2026",300,1000,1,3,155976880,"MDACT",0.05,"ok",TRUE,0.039999999999992,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3f1854aa7da95ed8d168dd36d59d2eee",0,0,0,29,0,0
+"linear_sparse_n300_t02_r0003","linear","sparse","paper2026",300,1000,1,3,155976880,"MLFDR",0.05,"ok",TRUE,0.339999999999989,"","","b137c00153edf45e9af8ee83f2fea94b",0,0,0,29,0,0
+"confounded_sparse_n300_t02_r0003","confounded","sparse","paper2026",300,1000,1,3,98811385,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c0020c60acaad28545c74fd73ab49dc8",0,0,0,18,0,0
+"confounded_sparse_n300_t02_r0003","confounded","sparse","paper2026",300,1000,1,3,98811385,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","86f08fc2e1dc37776c00a4473f660878",0,0,0,18,0,0
+"confounded_sparse_n300_t02_r0003","confounded","sparse","paper2026",300,1000,1,3,98811385,"MLFDR",0.05,"ok",TRUE,0.390000000000001,"","","21cb33e833032f2399b01de00eac093c",0,0,0,18,0,0
+"binary_sparse_n300_t02_r0003","binary","sparse","paper2026",300,1000,1,3,50461362,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","323c2077ea08dc2734d16f9cd3fa4f40",0,0,0,24,0,0
+"binary_sparse_n300_t02_r0003","binary","sparse","paper2026",300,1000,1,3,50461362,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"","","aec6b7871d7aef05b4a0b93c494a6272",0,0,0,24,0,0
+"binary_sparse_n300_t02_r0003","binary","sparse","paper2026",300,1000,1,3,50461362,"MLFDR",0.05,"ok",TRUE,1.7,"","","b4acea5786c02f3db42eafd18fd60c4f",0,0,0,24,0,0
+"linear_dense_n300_t02_r0003","linear","dense","paper2026",300,1000,1,3,40661306,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","d3a1400753822f2639be5df93c600f32",0,0,0,188,0,0
+"linear_dense_n300_t02_r0003","linear","dense","paper2026",300,1000,1,3,40661306,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","a4de71cd207d176c9a7376d6a198bddb",0,0,0,188,0,0
+"linear_dense_n300_t02_r0003","linear","dense","paper2026",300,1000,1,3,40661306,"MLFDR",0.05,"ok",TRUE,0.709999999999994,"","","e8d22eac05c7dc7723709f1b7e2a40df",0,0,0,188,0,0
+"confounded_dense_n300_t02_r0003","confounded","dense","paper2026",300,1000,1,3,85191762,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e3fe379aec8df7c2e46d1c5901026a37",0,0,0,208,0,0
+"confounded_dense_n300_t02_r0003","confounded","dense","paper2026",300,1000,1,3,85191762,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3954c5e9acd95af3042873de11f15128",0,0,0,208,0,0
+"confounded_dense_n300_t02_r0003","confounded","dense","paper2026",300,1000,1,3,85191762,"MLFDR",0.05,"ok",TRUE,1.15000000000001,"","","fb2f35505beaf800ea070736d98d66c1",0,0,0,208,0,0
+"binary_dense_n300_t02_r0003","binary","dense","paper2026",300,1000,1,3,128214880,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","ab4b0c9f0dd25840ac7324adf3f75217",0,0,0,182,0,0
+"binary_dense_n300_t02_r0003","binary","dense","paper2026",300,1000,1,3,128214880,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","fedfd74f73d3de55f97441b690445481",0,0,0,182,0,0
+"binary_dense_n300_t02_r0003","binary","dense","paper2026",300,1000,1,3,128214880,"MLFDR",0.05,"ok",TRUE,1.49000000000001,"","","fcdf3b46bd03cd177db69802cf668686",1,0,1,182,0,0.00549450549450549
+"linear_sparse_n100_t03_r0003","linear","sparse","paper2026",100,1000,1.9,3,254088970,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e1c9eadebf3a0d9f48998347a35b7ef7",0,0,0,24,0,0
+"linear_sparse_n100_t03_r0003","linear","sparse","paper2026",100,1000,1.9,3,254088970,"MDACT",0.05,"ok",TRUE,0.0699999999999932,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","8039b188a3a42e9e8f1e3579610b023c",0,0,0,24,0,0
+"linear_sparse_n100_t03_r0003","linear","sparse","paper2026",100,1000,1.9,3,254088970,"MLFDR",0.05,"ok",TRUE,0.530000000000001,"","","1602f49a5b4d2768c6fbdfe9821d64a6",0,0,0,24,0,0
+"confounded_sparse_n100_t03_r0003","confounded","sparse","paper2026",100,1000,1.9,3,249478424,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","071362093410a4b304b2e89d77d64b2f",0,0,0,21,0,0
+"confounded_sparse_n100_t03_r0003","confounded","sparse","paper2026",100,1000,1.9,3,249478424,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","280d72c7153269528f7f06a9aa793121",1,1,0,21,1,0
+"confounded_sparse_n100_t03_r0003","confounded","sparse","paper2026",100,1000,1.9,3,249478424,"MLFDR",0.05,"ok",TRUE,2.22,"","","8cd01b87f3b521e4214c29b25adcd46b",0,0,0,21,0,0
+"binary_sparse_n100_t03_r0003","binary","sparse","paper2026",100,1000,1.9,3,90854429,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"","","1350aedf95eea583ee22c96ee9989da5",0,0,0,20,0,0
+"binary_sparse_n100_t03_r0003","binary","sparse","paper2026",100,1000,1.9,3,90854429,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","9d0616996536ba0e1dfdd8b1d655ba82",0,0,0,20,0,0
+"binary_sparse_n100_t03_r0003","binary","sparse","paper2026",100,1000,1.9,3,90854429,"MLFDR",0.05,"ok",TRUE,1.39,"","","4b117cf4cecdec5d4a74e47f780e6038",0,0,0,20,0,0
+"linear_dense_n100_t03_r0003","linear","dense","paper2026",100,1000,1.9,3,67399348,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","fb54daef4a75d6bc72c91b8e29438e37",0,0,0,187,0,0
+"linear_dense_n100_t03_r0003","linear","dense","paper2026",100,1000,1.9,3,67399348,"MDACT",0.05,"ok",TRUE,0.0299999999999869,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","163e70e17e194be5b077e6da79a264f3",0,0,0,187,0,0
+"linear_dense_n100_t03_r0003","linear","dense","paper2026",100,1000,1.9,3,67399348,"MLFDR",0.05,"ok",TRUE,1.52,"","","ba4aa35c752e372eefc496dc367ca502",0,0,0,187,0,0
+"confounded_dense_n100_t03_r0003","confounded","dense","paper2026",100,1000,1.9,3,127743318,"HDMT",0.05,"ok",TRUE,0.0599999999999881,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0d65600d28e20ec825b32fb4d0fe28af",0,0,0,195,0,0
+"confounded_dense_n100_t03_r0003","confounded","dense","paper2026",100,1000,1.9,3,127743318,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","ece481cc99a720fd6f07d92f7ee710d5",0,0,0,195,0,0
+"confounded_dense_n100_t03_r0003","confounded","dense","paper2026",100,1000,1.9,3,127743318,"MLFDR",0.05,"ok",TRUE,1.58,"","","5d2ad185f91b9d9430924b0b52e20339",0,0,0,195,0,0
+"binary_dense_n100_t03_r0003","binary","dense","paper2026",100,1000,1.9,3,177015011,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","6e836efa9c856d2ab31f0bb9ad52203b",0,0,0,199,0,0
+"binary_dense_n100_t03_r0003","binary","dense","paper2026",100,1000,1.9,3,177015011,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","d59af7915f80a24dc411ed46c66719b8",0,0,0,199,0,0
+"binary_dense_n100_t03_r0003","binary","dense","paper2026",100,1000,1.9,3,177015011,"MLFDR",0.05,"ok",TRUE,1.95999999999999,"","","f4143afe8a262646d63aa182e958b498",0,0,0,199,0,0
+"linear_sparse_n300_t03_r0003","linear","sparse","paper2026",300,1000,1.9,3,16245657,"HDMT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3a62674c5309796ad30c7ef174cfa19e",0,0,0,21,0,0
+"linear_sparse_n300_t03_r0003","linear","sparse","paper2026",300,1000,1.9,3,16245657,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0ad4ef9ffb7183983e0112be405c2707",0,0,0,21,0,0
+"linear_sparse_n300_t03_r0003","linear","sparse","paper2026",300,1000,1.9,3,16245657,"MLFDR",0.05,"ok",TRUE,0.25,"","","9dc23d537a7358e7d5cfe4a85567ecfc",0,0,0,21,0,0
+"confounded_sparse_n300_t03_r0003","confounded","sparse","paper2026",300,1000,1.9,3,193671518,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c2bf439b7a7080aad03133bfdb1a5710",0,0,0,23,0,0
+"confounded_sparse_n300_t03_r0003","confounded","sparse","paper2026",300,1000,1.9,3,193671518,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","7a30c0b3ab2f850bcee0f79f2a4dc094",0,0,0,23,0,0
+"confounded_sparse_n300_t03_r0003","confounded","sparse","paper2026",300,1000,1.9,3,193671518,"MLFDR",0.05,"ok",TRUE,0.680000000000007,"","","9a2fa7ed0fd18e4daa5c74aee8a6852a",0,0,0,23,0,0
+"binary_sparse_n300_t03_r0003","binary","sparse","paper2026",300,1000,1.9,3,59775390,"HDMT",0.05,"ok",TRUE,0.019999999999996,"","","d2b92b9befb51523bf1535d0fe2c035d",1,1,0,23,1,0
+"binary_sparse_n300_t03_r0003","binary","sparse","paper2026",300,1000,1.9,3,59775390,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","0e3d5edc9d78886d90f86785fde1c731",0,0,0,23,0,0
+"binary_sparse_n300_t03_r0003","binary","sparse","paper2026",300,1000,1.9,3,59775390,"MLFDR",0.05,"ok",TRUE,0.659999999999997,"","","2b13469751e40ec6fd1adb7310354aaa",0,0,0,23,0,0
+"linear_dense_n300_t03_r0003","linear","dense","paper2026",300,1000,1.9,3,37757471,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","bb06a4b95ab1353d8c0b1ca741826502",0,0,0,195,0,0
+"linear_dense_n300_t03_r0003","linear","dense","paper2026",300,1000,1.9,3,37757471,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","8099e5240f033e22db676f31c9c95fb7",0,0,0,195,0,0
+"linear_dense_n300_t03_r0003","linear","dense","paper2026",300,1000,1.9,3,37757471,"MLFDR",0.05,"ok",TRUE,1.95,"","","c3a4c135e729f42bccac650a0f2ffb35",0,0,0,195,0,0
+"confounded_dense_n300_t03_r0003","confounded","dense","paper2026",300,1000,1.9,3,242088528,"HDMT",0.05,"ok",TRUE,0.019999999999996,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","6e4d64a5fcdcef3f8bdf1e083f1ba40d",0,0,0,202,0,0
+"confounded_dense_n300_t03_r0003","confounded","dense","paper2026",300,1000,1.9,3,242088528,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","295c9d51c6d053fcf90ee03f548d9e8d",0,0,0,202,0,0
+"confounded_dense_n300_t03_r0003","confounded","dense","paper2026",300,1000,1.9,3,242088528,"MLFDR",0.05,"ok",TRUE,1.38,"","","9cd70b675dcd77bbfb2abd3331f2e9d9",0,0,0,202,0,0
+"binary_dense_n300_t03_r0003","binary","dense","paper2026",300,1000,1.9,3,131948220,"HDMT",0.05,"ok",TRUE,0.0299999999999869,"","","8150cb8e803c949cb5d0ab1b94d72762",0,0,0,189,0,0
+"binary_dense_n300_t03_r0003","binary","dense","paper2026",300,1000,1.9,3,131948220,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","adcbb971523aa0cc45795f7796c13185",0,0,0,189,0,0
+"binary_dense_n300_t03_r0003","binary","dense","paper2026",300,1000,1.9,3,131948220,"MLFDR",0.05,"ok",TRUE,1.17999999999999,"","","22be06b4d12e1f986ad9fd5414b6c6f3",0,0,0,189,0,0
+"linear_sparse_n100_t01_r0004","linear","sparse","paper2026",100,1000,0.1,4,45472557,"HDMT",0.05,"ok",TRUE,0.0799999999999983,"","","aabaf8e6a0c955f970113b63243e0405",0,0,0,26,0,0
+"linear_sparse_n100_t01_r0004","linear","sparse","paper2026",100,1000,0.1,4,45472557,"MDACT",0.05,"ok",TRUE,0.0400000000000063,"","","057aee454aa3f49e125c6f4d8329d9eb",0,0,0,26,0,0
+"linear_sparse_n100_t01_r0004","linear","sparse","paper2026",100,1000,0.1,4,45472557,"MLFDR",0.05,"ok",TRUE,2.31,"","","cdb9f64c504307a2287c831a9f30b8c3",0,0,0,26,0,0
+"confounded_sparse_n100_t01_r0004","confounded","sparse","paper2026",100,1000,0.1,4,40724537,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","e68eaa2f70d55504a08e90a9a29bf5bd",0,0,0,16,0,0
+"confounded_sparse_n100_t01_r0004","confounded","sparse","paper2026",100,1000,0.1,4,40724537,"MDACT",0.05,"ok",TRUE,0.120000000000005,"","","2f6746f93d163ad2a68eb075dfed6183",0,0,0,16,0,0
+"confounded_sparse_n100_t01_r0004","confounded","sparse","paper2026",100,1000,0.1,4,40724537,"MLFDR",0.05,"ok",TRUE,11.54,"","","5b4d373b96a4f95742a1dde87dd06c17",0,0,0,16,0,0
+"binary_sparse_n100_t01_r0004","binary","sparse","paper2026",100,1000,0.1,4,237182730,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","b4d19452ab0d0fc5de07f384ad13fd7e",0,0,0,25,0,0
+"binary_sparse_n100_t01_r0004","binary","sparse","paper2026",100,1000,0.1,4,237182730,"MDACT",0.05,"ok",TRUE,0.13000000000001,"","","2bc1b3098cc9d013567a253280bcac3f",0,0,0,25,0,0
+"binary_sparse_n100_t01_r0004","binary","sparse","paper2026",100,1000,0.1,4,237182730,"MLFDR",0.05,"ok",TRUE,7.26000000000001,"","","0f8b37359154455c7ef692bbf9382727",0,0,0,25,0,0
+"linear_dense_n100_t01_r0004","linear","dense","paper2026",100,1000,0.1,4,194391514,"HDMT",0.05,"ok",TRUE,0.0100000000000051,"","","898608d69ae812df70dd2b737bc73e70",0,0,0,192,0,0
+"linear_dense_n100_t01_r0004","linear","dense","paper2026",100,1000,0.1,4,194391514,"MDACT",0.05,"ok",TRUE,0.0499999999999972,"","","19298a46fa25e4282981cd8974e22edc",0,0,0,192,0,0
+"linear_dense_n100_t01_r0004","linear","dense","paper2026",100,1000,0.1,4,194391514,"MLFDR",0.05,"ok",TRUE,2.5,"","","f503332d508acdeccb3c90bfcd4dafc4",0,0,0,192,0,0
+"confounded_dense_n100_t01_r0004","confounded","dense","paper2026",100,1000,0.1,4,139830719,"HDMT",0.05,"ok",TRUE,0.0699999999999932,"","","9e6f145a29f6614fd3cd181db983e9e6",0,0,0,213,0,0
+"confounded_dense_n100_t01_r0004","confounded","dense","paper2026",100,1000,0.1,4,139830719,"MDACT",0.05,"ok",TRUE,0.129999999999995,"","","c3e31cd7db6b7362c02dd9f4a9857e6b",0,0,0,213,0,0
+"confounded_dense_n100_t01_r0004","confounded","dense","paper2026",100,1000,0.1,4,139830719,"MLFDR",0.05,"ok",TRUE,4.01000000000001,"","","eb5216b57f8f30b4102bb5931aa754fb",0,0,0,213,0,0
+"binary_dense_n100_t01_r0004","binary","dense","paper2026",100,1000,0.1,4,182565481,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","00312832feb776e54e1c21d1abab1a9d",0,0,0,195,0,0
+"binary_dense_n100_t01_r0004","binary","dense","paper2026",100,1000,0.1,4,182565481,"MDACT",0.05,"ok",TRUE,0.0900000000000034,"","","56e91113a76bdfbd2d91356240292173",0,0,0,195,0,0
+"binary_dense_n100_t01_r0004","binary","dense","paper2026",100,1000,0.1,4,182565481,"MLFDR",0.05,"ok",TRUE,10.16,"","","740d1dbc4176ec1521c24b34c4884f2a",0,0,0,195,0,0
+"linear_sparse_n300_t01_r0004","linear","sparse","paper2026",300,1000,0.1,4,91502010,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","00ac44dc7fe412f722ff09c5208599c0",0,0,0,16,0,0
+"linear_sparse_n300_t01_r0004","linear","sparse","paper2026",300,1000,0.1,4,91502010,"MDACT",0.05,"ok",TRUE,0.139999999999986,"","","9a9697d8993889ea268c7a305f17b09c",0,0,0,16,0,0
+"linear_sparse_n300_t01_r0004","linear","sparse","paper2026",300,1000,0.1,4,91502010,"MLFDR",0.05,"ok",TRUE,4.5,"","","8ffd557377d021d39f36ebceac25dfbf",0,0,0,16,0,0
+"confounded_sparse_n300_t01_r0004","confounded","sparse","paper2026",300,1000,0.1,4,257654257,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","5dcb0bcab410006c3cad87cf498f14cd",1,1,0,18,1,0
+"confounded_sparse_n300_t01_r0004","confounded","sparse","paper2026",300,1000,0.1,4,257654257,"MDACT",0.05,"ok",TRUE,0.109999999999985,"","","eac09635dead757d662a0729201fcba4",0,0,0,18,0,0
+"confounded_sparse_n300_t01_r0004","confounded","sparse","paper2026",300,1000,0.1,4,257654257,"MLFDR",0.05,"ok",TRUE,1.59999999999999,"","","f6f8b1cc79df62648caf3d099dd8e5a0",0,0,0,18,0,0
+"binary_sparse_n300_t01_r0004","binary","sparse","paper2026",300,1000,0.1,4,142420504,"HDMT",0.05,"ok",TRUE,0.039999999999992,"","","da6ab34eb53da988c17e8138c94fcbea",0,0,0,28,0,0
+"binary_sparse_n300_t01_r0004","binary","sparse","paper2026",300,1000,0.1,4,142420504,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","241da832923dad4a8ae45088e8c59dd3",0,0,0,28,0,0
+"binary_sparse_n300_t01_r0004","binary","sparse","paper2026",300,1000,0.1,4,142420504,"MLFDR",0.05,"ok",TRUE,0.54000000000002,"","","b559b737807c05172cbc5bc5c6c1e2e9",0,0,0,28,0,0
+"linear_dense_n300_t01_r0004","linear","dense","paper2026",300,1000,0.1,4,23647669,"HDMT",0.05,"ok",TRUE,0.0500000000000114,"","","eba9f2dd6f47130c17c30e7879d52417",0,0,0,205,0,0
+"linear_dense_n300_t01_r0004","linear","dense","paper2026",300,1000,0.1,4,23647669,"MDACT",0.05,"ok",TRUE,0.139999999999986,"","","826937582497417494b48bc43a75f629",0,0,0,205,0,0
+"linear_dense_n300_t01_r0004","linear","dense","paper2026",300,1000,0.1,4,23647669,"MLFDR",0.05,"ok",TRUE,3.29999999999998,"","","c3aaa93a90a79e3d557c6db2b64ff2d0",0,0,0,205,0,0
+"confounded_dense_n300_t01_r0004","confounded","dense","paper2026",300,1000,0.1,4,26749264,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","275a714165076fd133168b3323bbfab9",0,0,0,218,0,0
+"confounded_dense_n300_t01_r0004","confounded","dense","paper2026",300,1000,0.1,4,26749264,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","1f35924000c96c0f3c4e1618c37677ac",0,0,0,218,0,0
+"confounded_dense_n300_t01_r0004","confounded","dense","paper2026",300,1000,0.1,4,26749264,"MLFDR",0.05,"ok",TRUE,1.44,"","","0b4897c96bde608aaa407e75240e68d8",0,0,0,218,0,0
+"binary_dense_n300_t01_r0004","binary","dense","paper2026",300,1000,0.1,4,228107521,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","f3c7dc804d801b73450a83b0560ae8e3",0,0,0,199,0,0
+"binary_dense_n300_t01_r0004","binary","dense","paper2026",300,1000,0.1,4,228107521,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"","","91d92b928ada67bf28904e6888dd0766",0,0,0,199,0,0
+"binary_dense_n300_t01_r0004","binary","dense","paper2026",300,1000,0.1,4,228107521,"MLFDR",0.05,"ok",TRUE,3.12,"","","4c7f2d1f31484c2347cdc1d5357ad3c7",0,0,0,199,0,0
+"linear_sparse_n100_t02_r0004","linear","sparse","paper2026",100,1000,1,4,118383648,"HDMT",0.05,"ok",TRUE,0.0199999999999818,"","","6d6a9da1f34fc9add6f85edcf8072a07",0,0,0,25,0,0
+"linear_sparse_n100_t02_r0004","linear","sparse","paper2026",100,1000,1,4,118383648,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","06ef6bd36f572e59b99fce6ab419a04f",0,0,0,25,0,0
+"linear_sparse_n100_t02_r0004","linear","sparse","paper2026",100,1000,1,4,118383648,"MLFDR",0.05,"ok",TRUE,0.890000000000015,"","","9b98d09297460a1ea979f4ba9d0bd300",0,0,0,25,0,0
+"confounded_sparse_n100_t02_r0004","confounded","sparse","paper2026",100,1000,1,4,78461061,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","5287a3f71e65407fa21e8ac05e7b1d83",0,0,0,17,0,0
+"confounded_sparse_n100_t02_r0004","confounded","sparse","paper2026",100,1000,1,4,78461061,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","b1bb7dada0275dd847fbfff4ce996ed7",0,0,0,17,0,0
+"confounded_sparse_n100_t02_r0004","confounded","sparse","paper2026",100,1000,1,4,78461061,"MLFDR",0.05,"ok",TRUE,1.91999999999999,"","","27a29465ffa13f646be0a8a571bb099f",0,0,0,17,0,0
+"binary_sparse_n100_t02_r0004","binary","sparse","paper2026",100,1000,1,4,201036574,"HDMT",0.05,"ok",TRUE,0.0400000000000205,"","","0447f8a19c373732a788c3ad5b15b979",0,0,0,20,0,0
+"binary_sparse_n100_t02_r0004","binary","sparse","paper2026",100,1000,1,4,201036574,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","5e06d29a2ea31c7066d196aa253d9ffe",0,0,0,20,0,0
+"binary_sparse_n100_t02_r0004","binary","sparse","paper2026",100,1000,1,4,201036574,"MLFDR",0.05,"ok",TRUE,2.87,"","","a490a6742bad8d0fd4566ece4a7685ac",0,0,0,20,0,0
+"linear_dense_n100_t02_r0004","linear","dense","paper2026",100,1000,1,4,167765624,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","1ebecbbdaa1f7826aea33835e5f279b5",0,0,0,183,0,0
+"linear_dense_n100_t02_r0004","linear","dense","paper2026",100,1000,1,4,167765624,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","226502740ee2999a91ef1cba45796c0e",0,0,0,183,0,0
+"linear_dense_n100_t02_r0004","linear","dense","paper2026",100,1000,1,4,167765624,"MLFDR",0.05,"ok",TRUE,0.439999999999998,"","","81a6c31ad497a89ae6134010a1132813",0,0,0,183,0,0
+"confounded_dense_n100_t02_r0004","confounded","dense","paper2026",100,1000,1,4,112993448,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","763572b08aa07eee12b2cc837cd32cae",0,0,0,186,0,0
+"confounded_dense_n100_t02_r0004","confounded","dense","paper2026",100,1000,1,4,112993448,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","9d7c7fa5129cd7fa039babf57c457497",0,0,0,186,0,0
+"confounded_dense_n100_t02_r0004","confounded","dense","paper2026",100,1000,1,4,112993448,"MLFDR",0.05,"ok",TRUE,0.519999999999982,"","","feb3522b8ca537461a4b286b05344658",0,0,0,186,0,0
+"binary_dense_n100_t02_r0004","binary","dense","paper2026",100,1000,1,4,4996273,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","3deea9d87fe35410b2e6de4389531210",0,0,0,182,0,0
+"binary_dense_n100_t02_r0004","binary","dense","paper2026",100,1000,1,4,4996273,"MDACT",0.05,"ok",TRUE,0.0400000000000205,"","","1fa97bd04cdf690a8d372c8db6b4712f",0,0,0,182,0,0
+"binary_dense_n100_t02_r0004","binary","dense","paper2026",100,1000,1,4,4996273,"MLFDR",0.05,"ok",TRUE,1.42000000000002,"","","1726f4bf098131ff83ee1d1021544f72",0,0,0,182,0,0
+"linear_sparse_n300_t02_r0004","linear","sparse","paper2026",300,1000,1,4,12843267,"HDMT",0.05,"ok",TRUE,0.0299999999999727,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b5eaba51afb3a9f329c020a5a5011d82",0,0,0,26,0,0
+"linear_sparse_n300_t02_r0004","linear","sparse","paper2026",300,1000,1,4,12843267,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","15f227711b7c50388aad464fc73733ce",1,1,0,26,1,0
+"linear_sparse_n300_t02_r0004","linear","sparse","paper2026",300,1000,1,4,12843267,"MLFDR",0.05,"ok",TRUE,0.929999999999978,"","","4bd8045d9edfd1036c6ca734e0950b47",0,0,0,26,0,0
+"confounded_sparse_n300_t02_r0004","confounded","sparse","paper2026",300,1000,1,4,247101619,"HDMT",0.05,"ok",TRUE,0.0100000000000193,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","603135fe1893cf9db94a0bb139ff9d8e",0,0,0,15,0,0
+"confounded_sparse_n300_t02_r0004","confounded","sparse","paper2026",300,1000,1,4,247101619,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b4ddeed1ca0ecaae916a65fe9255acf0",0,0,0,15,0,0
+"confounded_sparse_n300_t02_r0004","confounded","sparse","paper2026",300,1000,1,4,247101619,"MLFDR",0.05,"ok",TRUE,1.60999999999999,"","","d49b85095060b3ef91123bfa582443d1",0,0,0,15,0,0
+"binary_sparse_n300_t02_r0004","binary","sparse","paper2026",300,1000,1,4,173970175,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","5183520d77f638e01577695cf9c4beef",0,0,0,22,0,0
+"binary_sparse_n300_t02_r0004","binary","sparse","paper2026",300,1000,1,4,173970175,"MDACT",0.05,"ok",TRUE,0.109999999999985,"","","ce6e628b8def80ce9aaf98ce5ee18b74",0,0,0,22,0,0
+"binary_sparse_n300_t02_r0004","binary","sparse","paper2026",300,1000,1,4,173970175,"MLFDR",0.05,"ok",TRUE,9.88000000000002,"","","a584226966aa29c6dc5ac8e1b38f9b0f",0,0,0,22,0,0
+"linear_dense_n300_t02_r0004","linear","dense","paper2026",300,1000,1,4,82771210,"HDMT",0.05,"ok",TRUE,0.0799999999999841,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","835c0087a79af52aeba453abfaecaab1",0,0,0,215,0,0
+"linear_dense_n300_t02_r0004","linear","dense","paper2026",300,1000,1,4,82771210,"MDACT",0.05,"ok",TRUE,0.120000000000005,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","5cfc23e1e67326cceed281441ef805e8",0,0,0,215,0,0
+"linear_dense_n300_t02_r0004","linear","dense","paper2026",300,1000,1,4,82771210,"MLFDR",0.05,"ok",TRUE,5.72000000000003,"","","823ba1be48b5efdd7af8edc8bee84c2c",0,0,0,215,0,0
+"confounded_dense_n300_t02_r0004","confounded","dense","paper2026",300,1000,1,4,186490834,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","d56b80272e2f20bc4e8165d883be1003",0,0,0,214,0,0
+"confounded_dense_n300_t02_r0004","confounded","dense","paper2026",300,1000,1,4,186490834,"MDACT",0.05,"ok",TRUE,0.120000000000005,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","4636b70895fbc94275856be646b1f61a",0,0,0,214,0,0
+"confounded_dense_n300_t02_r0004","confounded","dense","paper2026",300,1000,1,4,186490834,"MLFDR",0.05,"ok",TRUE,5.09999999999999,"","","348dcb372b4b12cef5b8fef47352898b",0,0,0,214,0,0
+"binary_dense_n300_t02_r0004","binary","dense","paper2026",300,1000,1,4,185384209,"HDMT",0.05,"ok",TRUE,0.0799999999999841,"","","a7d7a99634f289568af059caa07b04e8",0,0,0,189,0,0
+"binary_dense_n300_t02_r0004","binary","dense","paper2026",300,1000,1,4,185384209,"MDACT",0.05,"ok",TRUE,0.150000000000006,"","","d37650961a48e7d876f3c3f11368b8cc",0,0,0,189,0,0
+"binary_dense_n300_t02_r0004","binary","dense","paper2026",300,1000,1,4,185384209,"MLFDR",0.05,"ok",TRUE,9.20999999999998,"","","e23996d0172200b49f82d2bb601d6806",0,0,0,189,0,0
+"linear_sparse_n100_t03_r0004","linear","sparse","paper2026",100,1000,1.9,4,211530626,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","48ed78fb84489d58060a37b1e3996bf6",0,0,0,15,0,0
+"linear_sparse_n100_t03_r0004","linear","sparse","paper2026",100,1000,1.9,4,211530626,"MDACT",0.05,"ok",TRUE,0.0999999999999943,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","babd53fd61e64db435ea2af1951c5cd4",0,0,0,15,0,0
+"linear_sparse_n100_t03_r0004","linear","sparse","paper2026",100,1000,1.9,4,211530626,"MLFDR",0.05,"ok",TRUE,1.97999999999999,"","","c0becbd554db7ee7b500203ae63c3e19",0,0,0,15,0,0
+"confounded_sparse_n100_t03_r0004","confounded","sparse","paper2026",100,1000,1.9,4,14655610,"HDMT",0.05,"ok",TRUE,0.0700000000000216,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","9d6fcafd2a708b32a4786e229d5acbae",0,0,0,22,0,0
+"confounded_sparse_n100_t03_r0004","confounded","sparse","paper2026",100,1000,1.9,4,14655610,"MDACT",0.05,"ok",TRUE,0.109999999999985,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","ec9d4073bd45be00d34300f328c75778",0,0,0,22,0,0
+"confounded_sparse_n100_t03_r0004","confounded","sparse","paper2026",100,1000,1.9,4,14655610,"MLFDR",0.05,"ok",TRUE,6.10000000000002,"","","9e7eee9adb9df7d54f4286fdb9fd773a",0,0,0,22,0,0
+"binary_sparse_n100_t03_r0004","binary","sparse","paper2026",100,1000,1.9,4,240634409,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","c5cf6e7361f3b5a81031d87d93de34a7",0,0,0,19,0,0
+"binary_sparse_n100_t03_r0004","binary","sparse","paper2026",100,1000,1.9,4,240634409,"MDACT",0.05,"ok",TRUE,0.110000000000014,"","","4bce56e978b21b1d4c76c647675a4a4e",0,0,0,19,0,0
+"binary_sparse_n100_t03_r0004","binary","sparse","paper2026",100,1000,1.9,4,240634409,"MLFDR",0.05,"ok",TRUE,7.72,"","","bda04bd77fa3be548d3a93eb1600acc2",0,0,0,19,0,0
+"linear_dense_n100_t03_r0004","linear","dense","paper2026",100,1000,1.9,4,44128745,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c23b1c896471fcff4cca7f1f72a9ff5b",0,0,0,206,0,0
+"linear_dense_n100_t03_r0004","linear","dense","paper2026",100,1000,1.9,4,44128745,"MDACT",0.05,"ok",TRUE,0.119999999999976,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","46bf3cf875880d772cd023c44b16d87b",0,0,0,206,0,0
+"linear_dense_n100_t03_r0004","linear","dense","paper2026",100,1000,1.9,4,44128745,"MLFDR",0.05,"ok",TRUE,4.56999999999999,"","","f0dff177c6c37c80e2c03e06ad6458e4",0,0,0,206,0,0
+"confounded_dense_n100_t03_r0004","confounded","dense","paper2026",100,1000,1.9,4,239961779,"HDMT",0.05,"ok",TRUE,0.0499999999999829,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","1de2b4aa8ce71abf5b4714f47f1531d4",0,0,0,221,0,0
+"confounded_dense_n100_t03_r0004","confounded","dense","paper2026",100,1000,1.9,4,239961779,"MDACT",0.05,"ok",TRUE,0.0900000000000034,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","afcd38c50a91e9b83948e775bf7902fe",0,0,0,221,0,0
+"confounded_dense_n100_t03_r0004","confounded","dense","paper2026",100,1000,1.9,4,239961779,"MLFDR",0.05,"ok",TRUE,4.63999999999999,"","","b0200be9fe8b0cb74f235a92455ae888",0,0,0,221,0,0
+"binary_dense_n100_t03_r0004","binary","dense","paper2026",100,1000,1.9,4,143128030,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","b062899bd61223232df2265c0b0783e2",0,0,0,192,0,0
+"binary_dense_n100_t03_r0004","binary","dense","paper2026",100,1000,1.9,4,143128030,"MDACT",0.05,"ok",TRUE,0.129999999999995,"","","758867d969322ccba3781aa76cf5fdb9",0,0,0,192,0,0
+"binary_dense_n100_t03_r0004","binary","dense","paper2026",100,1000,1.9,4,143128030,"MLFDR",0.05,"ok",TRUE,7.25,"","","5c80cd306dad43b1fd9eebbe2de07a16",0,0,0,192,0,0
+"linear_sparse_n300_t03_r0004","linear","sparse","paper2026",300,1000,1.9,4,262108081,"HDMT",0.05,"ok",TRUE,0.0800000000000125,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","50613995a1d4bf1c85a0cbc99165c574",0,0,0,24,0,0
+"linear_sparse_n300_t03_r0004","linear","sparse","paper2026",300,1000,1.9,4,262108081,"MDACT",0.05,"ok",TRUE,0.129999999999995,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","a9b0881dda0203e221f34065666c3abe",0,0,0,24,0,0
+"linear_sparse_n300_t03_r0004","linear","sparse","paper2026",300,1000,1.9,4,262108081,"MLFDR",0.05,"ok",TRUE,4.73000000000002,"","","2653de996ae473b2ba283f8730a430f7",0,0,0,24,0,0
+"confounded_sparse_n300_t03_r0004","confounded","sparse","paper2026",300,1000,1.9,4,132609392,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f6b04e567955f60a6e0f1b048c30a21b",0,0,0,18,0,0
+"confounded_sparse_n300_t03_r0004","confounded","sparse","paper2026",300,1000,1.9,4,132609392,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","bda0846afc486a21b89e0a847a4403f0",0,0,0,18,0,0
+"confounded_sparse_n300_t03_r0004","confounded","sparse","paper2026",300,1000,1.9,4,132609392,"MLFDR",0.05,"ok",TRUE,1.19999999999999,"","","9b7854b36cc9fb69baac6c090eeae053",0,0,0,18,0,0
+"binary_sparse_n300_t03_r0004","binary","sparse","paper2026",300,1000,1.9,4,83245998,"HDMT",0.05,"ok",TRUE,0.0299999999999727,"","","b052278d9ded61e9871f80aa4f000e7e",0,0,0,17,0,0
+"binary_sparse_n300_t03_r0004","binary","sparse","paper2026",300,1000,1.9,4,83245998,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"","","ff29e4207c3b20e32033393ca163cc53",0,0,0,17,0,0
+"binary_sparse_n300_t03_r0004","binary","sparse","paper2026",300,1000,1.9,4,83245998,"MLFDR",0.05,"ok",TRUE,0.489999999999981,"","","99b2136f5586e7cb14fba56fa0adfa5c",0,0,0,17,0,0
+"linear_dense_n300_t03_r0004","linear","dense","paper2026",300,1000,1.9,4,45812597,"HDMT",0.05,"ok",TRUE,0.0699999999999932,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","d3cda15406eabc3678dd2aad8e492dea",0,0,0,215,0,0
+"linear_dense_n300_t03_r0004","linear","dense","paper2026",300,1000,1.9,4,45812597,"MDACT",0.05,"ok",TRUE,0.129999999999995,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","4a45e04c5d5dd236e66ce871b0652c29",0,0,0,215,0,0
+"linear_dense_n300_t03_r0004","linear","dense","paper2026",300,1000,1.9,4,45812597,"MLFDR",0.05,"ok",TRUE,3.84999999999999,"","","c9969973e8d8e5d610a0404b97982a8d",0,0,0,215,0,0
+"confounded_dense_n300_t03_r0004","confounded","dense","paper2026",300,1000,1.9,4,225452725,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","39ed771fce24396e5a2931477b3197d3",0,0,0,166,0,0
+"confounded_dense_n300_t03_r0004","confounded","dense","paper2026",300,1000,1.9,4,225452725,"MDACT",0.05,"ok",TRUE,0.0299999999999727,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","db020e389e59b217dba8a914abf69521",0,0,0,166,0,0
+"confounded_dense_n300_t03_r0004","confounded","dense","paper2026",300,1000,1.9,4,225452725,"MLFDR",0.05,"ok",TRUE,1.29000000000002,"","","11d79fb2f0af19c05eb629750639697a",0,0,0,166,0,0
+"binary_dense_n300_t03_r0004","binary","dense","paper2026",300,1000,1.9,4,250572793,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","e01638179ae990897ecab8b67cfe3c49",0,0,0,194,0,0
+"binary_dense_n300_t03_r0004","binary","dense","paper2026",300,1000,1.9,4,250572793,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","d80ce7521b8ba90417bd9229c004cf1c",0,0,0,194,0,0
+"binary_dense_n300_t03_r0004","binary","dense","paper2026",300,1000,1.9,4,250572793,"MLFDR",0.05,"ok",TRUE,1.64999999999998,"","","b8adbf40fcd5a0b5ecfb5676a4397bfc",0,0,0,194,0,0
+"linear_sparse_n100_t01_r0005","linear","sparse","paper2026",100,1000,0.1,5,142131545,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","4e8bc8c68b9675083b6be5e131600905",1,1,0,15,1,0
+"linear_sparse_n100_t01_r0005","linear","sparse","paper2026",100,1000,0.1,5,142131545,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","ba5e3168691ed64de87ee2116a966a27",1,1,0,15,1,0
+"linear_sparse_n100_t01_r0005","linear","sparse","paper2026",100,1000,0.1,5,142131545,"MLFDR",0.05,"ok",TRUE,3.28,"","","793eed5c2eeb39abcbb126c0e8e003fb",0,0,0,15,0,0
+"confounded_sparse_n100_t01_r0005","confounded","sparse","paper2026",100,1000,0.1,5,193053141,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","126f84cafb76b8380cf5ffc3e4c718c6",0,0,0,15,0,0
+"confounded_sparse_n100_t01_r0005","confounded","sparse","paper2026",100,1000,0.1,5,193053141,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","cd482be7f2ab4d6119560bc81f4163cd",1,1,0,15,1,0
+"confounded_sparse_n100_t01_r0005","confounded","sparse","paper2026",100,1000,0.1,5,193053141,"MLFDR",0.05,"ok",TRUE,0.439999999999998,"","","248a3e5cdcd54f420be599fcecca1d2d",0,0,0,15,0,0
+"binary_sparse_n100_t01_r0005","binary","sparse","paper2026",100,1000,0.1,5,127444791,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","901e35c9a90cc73b2c5d1b8ad78013ef",1,1,0,27,1,0
+"binary_sparse_n100_t01_r0005","binary","sparse","paper2026",100,1000,0.1,5,127444791,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"","","88ddae84290d34e686cf28cdbf88c7d4",1,1,0,27,1,0
+"binary_sparse_n100_t01_r0005","binary","sparse","paper2026",100,1000,0.1,5,127444791,"MLFDR",0.05,"ok",TRUE,2.06,"","","6d848c0a2508189a6397e12a800304f4",0,0,0,27,0,0
+"linear_dense_n100_t01_r0005","linear","dense","paper2026",100,1000,0.1,5,45836128,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","e2537e12f533c76f57900c31713211fc",0,0,0,204,0,0
+"linear_dense_n100_t01_r0005","linear","dense","paper2026",100,1000,0.1,5,45836128,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","f0be0bada335432594a9bfd6a525b893",0,0,0,204,0,0
+"linear_dense_n100_t01_r0005","linear","dense","paper2026",100,1000,0.1,5,45836128,"MLFDR",0.05,"ok",TRUE,1.90000000000001,"","","ee4ed15803c218b298dc41c6c9f1a697",0,0,0,204,0,0
+"confounded_dense_n100_t01_r0005","confounded","dense","paper2026",100,1000,0.1,5,94299534,"HDMT",0.05,"ok",TRUE,0.0100000000000193,"","","abb981173ce1824025fb538dae01e196",0,0,0,181,0,0
+"confounded_dense_n100_t01_r0005","confounded","dense","paper2026",100,1000,0.1,5,94299534,"MDACT",0.05,"ok",TRUE,0.0400000000000205,"","","9572ee71d731f04c3cfeac98d33737fc",0,0,0,181,0,0
+"confounded_dense_n100_t01_r0005","confounded","dense","paper2026",100,1000,0.1,5,94299534,"MLFDR",0.05,"ok",TRUE,1.25,"","","6f3682607d2904dc4e261179daab1129",0,0,0,181,0,0
+"binary_dense_n100_t01_r0005","binary","dense","paper2026",100,1000,0.1,5,191805576,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","e46fe8265e5d7fd14ce91b37f0e061f6",0,0,0,211,0,0
+"binary_dense_n100_t01_r0005","binary","dense","paper2026",100,1000,0.1,5,191805576,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","0c66fc97924ae033d2959fbb84c9e83e",0,0,0,211,0,0
+"binary_dense_n100_t01_r0005","binary","dense","paper2026",100,1000,0.1,5,191805576,"MLFDR",0.05,"ok",TRUE,1.78,"","","7192d880bcc2ffbf30b93af465d2aa27",0,0,0,211,0,0
+"linear_sparse_n300_t01_r0005","linear","sparse","paper2026",300,1000,0.1,5,75247156,"HDMT",0.05,"ok",TRUE,0.0100000000000193,"","","43f7066f5fa5bffcaf316e0e4084a1ab",0,0,0,13,0,0
+"linear_sparse_n300_t01_r0005","linear","sparse","paper2026",300,1000,0.1,5,75247156,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","a55f432e03948063a70610be70743358",0,0,0,13,0,0
+"linear_sparse_n300_t01_r0005","linear","sparse","paper2026",300,1000,0.1,5,75247156,"MLFDR",0.05,"ok",TRUE,1.88,"","","91150cf8601e00a4af89158d91f073b5",0,0,0,13,0,0
+"confounded_sparse_n300_t01_r0005","confounded","sparse","paper2026",300,1000,0.1,5,179393160,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","17a72a1407dd7891d57b60b5c11b1400",0,0,0,19,0,0
+"confounded_sparse_n300_t01_r0005","confounded","sparse","paper2026",300,1000,0.1,5,179393160,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","b7fcea30b226287d5c554ad9277fb3fe",0,0,0,19,0,0
+"confounded_sparse_n300_t01_r0005","confounded","sparse","paper2026",300,1000,0.1,5,179393160,"MLFDR",0.05,"ok",TRUE,0.930000000000007,"","","a89d55e88db8c31713c8f41c20b3b6d1",0,0,0,19,0,0
+"binary_sparse_n300_t01_r0005","binary","sparse","paper2026",300,1000,0.1,5,190948747,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","a98089954c9da1d5bdc395dea20a322a",0,0,0,21,0,0
+"binary_sparse_n300_t01_r0005","binary","sparse","paper2026",300,1000,0.1,5,190948747,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","c3ecbc63278c636d6afd2896c8804944",0,0,0,21,0,0
+"binary_sparse_n300_t01_r0005","binary","sparse","paper2026",300,1000,0.1,5,190948747,"MLFDR",0.05,"ok",TRUE,1.79999999999998,"","","8fcfbcb7f0febc14a8f36146d0b9cc8e",0,0,0,21,0,0
+"linear_dense_n300_t01_r0005","linear","dense","paper2026",300,1000,0.1,5,78027854,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","1965ddba9732b0e3813793ebc6a3e31b",0,0,0,175,0,0
+"linear_dense_n300_t01_r0005","linear","dense","paper2026",300,1000,0.1,5,78027854,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","78c9aed3c3845e9d4153872f4d95f27c",0,0,0,175,0,0
+"linear_dense_n300_t01_r0005","linear","dense","paper2026",300,1000,0.1,5,78027854,"MLFDR",0.05,"ok",TRUE,1.13999999999999,"","","3f49e9c771aca4255b8c7034f0c92900",0,0,0,175,0,0
+"confounded_dense_n300_t01_r0005","confounded","dense","paper2026",300,1000,0.1,5,32442194,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","081a885dc53f5903b7215e302437ba1b",0,0,0,182,0,0
+"confounded_dense_n300_t01_r0005","confounded","dense","paper2026",300,1000,0.1,5,32442194,"MDACT",0.05,"ok",TRUE,0.039999999999992,"","","24a36a07161e75e2f125643bea680cb7",0,0,0,182,0,0
+"confounded_dense_n300_t01_r0005","confounded","dense","paper2026",300,1000,0.1,5,32442194,"MLFDR",0.05,"ok",TRUE,2.5,"","","4b5ee6b46c0c8b575b9bdc72b0570dd1",0,0,0,182,0,0
+"binary_dense_n300_t01_r0005","binary","dense","paper2026",300,1000,0.1,5,178397828,"HDMT",0.05,"ok",TRUE,0.039999999999992,"","","d4eff648655a5240fd741f71c926cbb4",0,0,0,190,0,0
+"binary_dense_n300_t01_r0005","binary","dense","paper2026",300,1000,0.1,5,178397828,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","219775fb595bb42eaddc3ae653e0f134",0,0,0,190,0,0
+"binary_dense_n300_t01_r0005","binary","dense","paper2026",300,1000,0.1,5,178397828,"MLFDR",0.05,"ok",TRUE,5.04000000000002,"","","69a92da23073644569135946d77f3202",0,0,0,190,0,0
+"linear_sparse_n100_t02_r0005","linear","sparse","paper2026",100,1000,1,5,52657742,"HDMT",0.05,"ok",TRUE,0.0100000000000193,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f0dc753dd0df8bc5394440d74acb05c7",1,0,1,18,0,0.0555555555555556
+"linear_sparse_n100_t02_r0005","linear","sparse","paper2026",100,1000,1,5,52657742,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","09ad7e69f9244a6f175eca58d9c424ba",1,0,1,18,0,0.0555555555555556
+"linear_sparse_n100_t02_r0005","linear","sparse","paper2026",100,1000,1,5,52657742,"MLFDR",0.05,"ok",TRUE,1.24000000000001,"","","59ba4712eb3aa4de14ea20f9bcd69b80",0,0,0,18,0,0
+"confounded_sparse_n100_t02_r0005","confounded","sparse","paper2026",100,1000,1,5,155674845,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","6fceacc032224f539c6fae15ff1fa188",1,1,0,18,1,0
+"confounded_sparse_n100_t02_r0005","confounded","sparse","paper2026",100,1000,1,5,155674845,"MDACT",0.05,"ok",TRUE,0.0400000000000205,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0dd408b44690c10f4861330a96d87049",1,1,0,18,1,0
+"confounded_sparse_n100_t02_r0005","confounded","sparse","paper2026",100,1000,1,5,155674845,"MLFDR",0.05,"ok",TRUE,3.12,"","","4ae1a773801f5c8ac5e9c4b82c757a07",1,1,0,18,1,0
+"binary_sparse_n100_t02_r0005","binary","sparse","paper2026",100,1000,1,5,183905072,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","c2acdc3d0842d34573b765ceff5dd93f",0,0,0,27,0,0
+"binary_sparse_n100_t02_r0005","binary","sparse","paper2026",100,1000,1,5,183905072,"MDACT",0.05,"ok",TRUE,0.0400000000000205,"","","89ecbdfea93f398759693a638e996f42",0,0,0,27,0,0
+"binary_sparse_n100_t02_r0005","binary","sparse","paper2026",100,1000,1,5,183905072,"MLFDR",0.05,"ok",TRUE,2.17000000000002,"","","798b58546194e715dcedf38936997e56",0,0,0,27,0,0
+"linear_dense_n100_t02_r0005","linear","dense","paper2026",100,1000,1,5,214094298,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","458e0bf34f7fdc17aaf329046296d5c9",0,0,0,213,0,0
+"linear_dense_n100_t02_r0005","linear","dense","paper2026",100,1000,1,5,214094298,"MDACT",0.05,"ok",TRUE,0.039999999999992,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","42896cab2b7a88c257d6f44e70b3b3f4",0,0,0,213,0,0
+"linear_dense_n100_t02_r0005","linear","dense","paper2026",100,1000,1,5,214094298,"MLFDR",0.05,"ok",TRUE,1.27000000000001,"","","f11c8abe99cd1160c32fd23358f6c8f6",0,0,0,213,0,0
+"confounded_dense_n100_t02_r0005","confounded","dense","paper2026",100,1000,1,5,218659410,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","25765806385e1a56cebb8ad81e1964b5",0,0,0,200,0,0
+"confounded_dense_n100_t02_r0005","confounded","dense","paper2026",100,1000,1,5,218659410,"MDACT",0.05,"ok",TRUE,0.0299999999999727,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c4389d3da9480030f98038b669779989",0,0,0,200,0,0
+"confounded_dense_n100_t02_r0005","confounded","dense","paper2026",100,1000,1,5,218659410,"MLFDR",0.05,"ok",TRUE,1.82999999999998,"","","d6be6d31f071c83d410260fa8388abbb",0,0,0,200,0,0
+"binary_dense_n100_t02_r0005","binary","dense","paper2026",100,1000,1,5,237624334,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","ba60b0b44642c59c148994fc08610111",0,0,0,174,0,0
+"binary_dense_n100_t02_r0005","binary","dense","paper2026",100,1000,1,5,237624334,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","e46ea30a8a7fa557795f4e88569149bf",0,0,0,174,0,0
+"binary_dense_n100_t02_r0005","binary","dense","paper2026",100,1000,1,5,237624334,"MLFDR",0.05,"ok",TRUE,0.969999999999999,"","","2d22062ec959bfc26cd1c6fd45c61305",0,0,0,174,0,0
+"linear_sparse_n300_t02_r0005","linear","sparse","paper2026",300,1000,1,5,230896989,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f4bc3753123338f3563324a907f38d11",0,0,0,14,0,0
+"linear_sparse_n300_t02_r0005","linear","sparse","paper2026",300,1000,1,5,230896989,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c1e85aa29390ede1839a9c8ebd0c454c",0,0,0,14,0,0
+"linear_sparse_n300_t02_r0005","linear","sparse","paper2026",300,1000,1,5,230896989,"MLFDR",0.05,"ok",TRUE,1.05000000000001,"","","d94b81d02569d8f8ee4833f6803c891d",0,0,0,14,0,0
+"confounded_sparse_n300_t02_r0005","confounded","sparse","paper2026",300,1000,1,5,217726941,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","f4afba874ec5d3b5ff32b9482c1a5a02",0,0,0,22,0,0
+"confounded_sparse_n300_t02_r0005","confounded","sparse","paper2026",300,1000,1,5,217726941,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","c8174582b0bde4bc4d16894a1c8d605a",0,0,0,22,0,0
+"confounded_sparse_n300_t02_r0005","confounded","sparse","paper2026",300,1000,1,5,217726941,"MLFDR",0.05,"ok",TRUE,0.870000000000005,"","","5f85d2f43fa290c3404e74f8309be8a5",0,0,0,22,0,0
+"binary_sparse_n300_t02_r0005","binary","sparse","paper2026",300,1000,1,5,116680992,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","3a8e9672d5cc44979a4f3b88ea2e1c34",1,0,1,16,0,0.0625
+"binary_sparse_n300_t02_r0005","binary","sparse","paper2026",300,1000,1,5,116680992,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","9e35848a6c06266531bfcfd2b2815277",1,0,1,16,0,0.0625
+"binary_sparse_n300_t02_r0005","binary","sparse","paper2026",300,1000,1,5,116680992,"MLFDR",0.05,"ok",TRUE,5.23999999999998,"","","b28b66d15a11fec981ad53e94610c3a2",1,0,1,16,0,0.0625
+"linear_dense_n300_t02_r0005","linear","dense","paper2026",300,1000,1,5,144592794,"HDMT",0.05,"ok",TRUE,0.0199999999999818,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","0282263420915ef863b0cc0ffe8773fd",0,0,0,200,0,0
+"linear_dense_n300_t02_r0005","linear","dense","paper2026",300,1000,1,5,144592794,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","d49c6befab6baea418cb5d1267711ed3",0,0,0,200,0,0
+"linear_dense_n300_t02_r0005","linear","dense","paper2026",300,1000,1,5,144592794,"MLFDR",0.05,"ok",TRUE,2.31999999999999,"","","7e86dca16e22b8b149bb139b65126c7f",0,0,0,200,0,0
+"confounded_dense_n300_t02_r0005","confounded","dense","paper2026",300,1000,1,5,57575991,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","77861ddcfe9f820963cf9b04d24ad435",0,0,0,227,0,0
+"confounded_dense_n300_t02_r0005","confounded","dense","paper2026",300,1000,1,5,57575991,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","729da361d69e918949e724a25ce93331",0,0,0,227,0,0
+"confounded_dense_n300_t02_r0005","confounded","dense","paper2026",300,1000,1,5,57575991,"MLFDR",0.05,"ok",TRUE,1.26999999999998,"","","d223091070d7852f2e891ca4efa1cf8e",0,0,0,227,0,0
+"binary_dense_n300_t02_r0005","binary","dense","paper2026",300,1000,1,5,110093727,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"","","e93cab22c89b26edae3a0a5b16f37729",0,0,0,210,0,0
+"binary_dense_n300_t02_r0005","binary","dense","paper2026",300,1000,1,5,110093727,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","6e6ad427f8f608334ecf7d67de9d9153",0,0,0,210,0,0
+"binary_dense_n300_t02_r0005","binary","dense","paper2026",300,1000,1,5,110093727,"MLFDR",0.05,"ok",TRUE,2.58999999999997,"","","1748d2729518e7c515c911980db7368f",0,0,0,210,0,0
+"linear_sparse_n100_t03_r0005","linear","sparse","paper2026",100,1000,1.9,5,110797964,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","ee62febd231d677cdafddec07454fff8",0,0,0,16,0,0
+"linear_sparse_n100_t03_r0005","linear","sparse","paper2026",100,1000,1.9,5,110797964,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","75191a1669772280218d000fb59de95f",0,0,0,16,0,0
+"linear_sparse_n100_t03_r0005","linear","sparse","paper2026",100,1000,1.9,5,110797964,"MLFDR",0.05,"ok",TRUE,2.45999999999998,"","","522cc6fec726242e19571b90fd8f87fb",0,0,0,16,0,0
+"confounded_sparse_n100_t03_r0005","confounded","sparse","paper2026",100,1000,1.9,5,235514488,"HDMT",0.05,"ok",TRUE,0.0299999999999727,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","9b03c54f3933be22106ddf101386ea44",0,0,0,23,0,0
+"confounded_sparse_n100_t03_r0005","confounded","sparse","paper2026",100,1000,1.9,5,235514488,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","3144aadd3e276ba7e232bb4ef9489481",0,0,0,23,0,0
+"confounded_sparse_n100_t03_r0005","confounded","sparse","paper2026",100,1000,1.9,5,235514488,"MLFDR",0.05,"ok",TRUE,1.13,"","","78f94df7b454568425f4e9efd1d404b8",0,0,0,23,0,0
+"binary_sparse_n100_t03_r0005","binary","sparse","paper2026",100,1000,1.9,5,112232252,"HDMT",0.05,"ok",TRUE,0.0199999999999818,"","","e5c87459cc3216cb9dbda9667a5e11dd",0,0,0,20,0,0
+"binary_sparse_n100_t03_r0005","binary","sparse","paper2026",100,1000,1.9,5,112232252,"MDACT",0.05,"ok",TRUE,0.0499999999999829,"","","b4c71aba91fe3af469cd0a0b90b1dd6c",0,0,0,20,0,0
+"binary_sparse_n100_t03_r0005","binary","sparse","paper2026",100,1000,1.9,5,112232252,"MLFDR",0.05,"ok",TRUE,1.81999999999999,"","","3344c3dd8c4b6ff21f601c1c12dc136e",0,0,0,20,0,0
+"linear_dense_n100_t03_r0005","linear","dense","paper2026",100,1000,1.9,5,113429046,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","794f82916c2c6d7a62b80a002618e6a6",0,0,0,197,0,0
+"linear_dense_n100_t03_r0005","linear","dense","paper2026",100,1000,1.9,5,113429046,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","2fd157bd91d11e90a5c441719ecf8dc8",0,0,0,197,0,0
+"linear_dense_n100_t03_r0005","linear","dense","paper2026",100,1000,1.9,5,113429046,"MLFDR",0.05,"ok",TRUE,1.63,"","","661b73e5d4c2c5961e8186883abf404f",0,0,0,197,0,0
+"confounded_dense_n100_t03_r0005","confounded","dense","paper2026",100,1000,1.9,5,50592340,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","2fbcc1db069c3b05f8964097ec5c5a4b",0,0,0,213,0,0
+"confounded_dense_n100_t03_r0005","confounded","dense","paper2026",100,1000,1.9,5,50592340,"MDACT",0.05,"ok",TRUE,0.0400000000000205,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","2d607db5f41dca3963130fa62f554091",1,1,0,213,1,0
+"confounded_dense_n100_t03_r0005","confounded","dense","paper2026",100,1000,1.9,5,50592340,"MLFDR",0.05,"ok",TRUE,1.09,"","","d381da51b03eab762f82482768fc8efa",0,0,0,213,0,0
+"binary_dense_n100_t03_r0005","binary","dense","paper2026",100,1000,1.9,5,89423287,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"","","0c8140304fab7f8b2ebc8b0dc1f5ed07",0,0,0,211,0,0
+"binary_dense_n100_t03_r0005","binary","dense","paper2026",100,1000,1.9,5,89423287,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"","","0abbcd5415e0e4751c0da13147524a9d",0,0,0,211,0,0
+"binary_dense_n100_t03_r0005","binary","dense","paper2026",100,1000,1.9,5,89423287,"MLFDR",0.05,"ok",TRUE,1.13999999999999,"","","ed23aed11f9e3944d806d5633afe6d43",0,0,0,211,0,0
+"linear_sparse_n300_t03_r0005","linear","sparse","paper2026",300,1000,1.9,5,112240524,"HDMT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","e66c50b34e9f4e9320387e69eeae2b5c",0,0,0,16,0,0
+"linear_sparse_n300_t03_r0005","linear","sparse","paper2026",300,1000,1.9,5,112240524,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","66e3f850c32d840e367429a462477697",0,0,0,16,0,0
+"linear_sparse_n300_t03_r0005","linear","sparse","paper2026",300,1000,1.9,5,112240524,"MLFDR",0.05,"ok",TRUE,0.480000000000018,"","","637283f36f25acbd34c83506949c301c",0,0,0,16,0,0
+"confounded_sparse_n300_t03_r0005","confounded","sparse","paper2026",300,1000,1.9,5,51810979,"HDMT",0.05,"ok",TRUE,0.0199999999999818,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","391101464188cdca381e88cb7535537e",0,0,0,24,0,0
+"confounded_sparse_n300_t03_r0005","confounded","sparse","paper2026",300,1000,1.9,5,51810979,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b8a2327bde1a4e74ee545a0be8b6fd5c",0,0,0,24,0,0
+"confounded_sparse_n300_t03_r0005","confounded","sparse","paper2026",300,1000,1.9,5,51810979,"MLFDR",0.05,"ok",TRUE,0.330000000000013,"","","84407c02cb1ac2a6637e9df3c616ae4e",0,0,0,24,0,0
+"binary_sparse_n300_t03_r0005","binary","sparse","paper2026",300,1000,1.9,5,24364639,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"","","685999581fee335b1504f0c9156db0ea",0,0,0,26,0,0
+"binary_sparse_n300_t03_r0005","binary","sparse","paper2026",300,1000,1.9,5,24364639,"MDACT",0.05,"ok",TRUE,0.110000000000014,"","","7af4cd77a58e90ed0857cb1e25771a92",0,0,0,26,0,0
+"binary_sparse_n300_t03_r0005","binary","sparse","paper2026",300,1000,1.9,5,24364639,"MLFDR",0.05,"ok",TRUE,0.980000000000018,"","","e0a01e321f1abe671fa8921c6714c63e",0,0,0,26,0,0
+"linear_dense_n300_t03_r0005","linear","dense","paper2026",300,1000,1.9,5,24901352,"HDMT",0.05,"ok",TRUE,0.0200000000000102,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","86572c0f10d97165363eb3f24e1b5f3a",0,0,0,205,0,0
+"linear_dense_n300_t03_r0005","linear","dense","paper2026",300,1000,1.9,5,24901352,"MDACT",0.05,"ok",TRUE,0.0300000000000011,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","4a76f327ad34163e66801fcab2b06dd7",0,0,0,205,0,0
+"linear_dense_n300_t03_r0005","linear","dense","paper2026",300,1000,1.9,5,24901352,"MLFDR",0.05,"ok",TRUE,1.05000000000001,"","","23c785ddc67c4888314c8ef9a2e7d45f",3,0,3,205,0,0.0146341463414634
+"confounded_dense_n300_t03_r0005","confounded","dense","paper2026",300,1000,1.9,5,30700049,"HDMT",0.05,"ok",TRUE,0.0600000000000023,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","85dd3bc6b793dbdedb0de3852bf977e0",0,0,0,209,0,0
+"confounded_dense_n300_t03_r0005","confounded","dense","paper2026",300,1000,1.9,5,30700049,"MDACT",0.05,"ok",TRUE,0.110000000000014,"ties should not be present for the one-sample Kolmogorov-Smirnov test","","b445786194ce6a4bce1a122939fa8db8",0,0,0,209,0,0
+"confounded_dense_n300_t03_r0005","confounded","dense","paper2026",300,1000,1.9,5,30700049,"MLFDR",0.05,"ok",TRUE,1.85999999999999,"","","6dadc891c28a5f27ddf4f4f8f82219ba",0,0,0,209,0,0
+"binary_dense_n300_t03_r0005","binary","dense","paper2026",300,1000,1.9,5,39138397,"HDMT",0.05,"ok",TRUE,0.00999999999999091,"","","a4543f8c7fe599f093bfb6e99d53b34f",1,0,1,187,0,0.0053475935828877
+"binary_dense_n300_t03_r0005","binary","dense","paper2026",300,1000,1.9,5,39138397,"MDACT",0.05,"ok",TRUE,0.0500000000000114,"","","933b230bd12be751605a4c7fa5fab1ca",1,0,1,187,0,0.0053475935828877
+"binary_dense_n300_t03_r0005","binary","dense","paper2026",300,1000,1.9,5,39138397,"MLFDR",0.05,"ok",TRUE,0.719999999999999,"","","ee405aaa0252cda268057b145636139f",1,0,1,187,0,0.0053475935828877

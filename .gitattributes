@@ -1,0 +1,4 @@
+# Preserve the exact source and result bytes recorded in provenance/checksums.
+* -text
+*.rds binary
+*.png binary

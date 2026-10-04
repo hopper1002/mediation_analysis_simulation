@@ -1,0 +1,15 @@
+PROJECT_ROOT <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+source(file.path(PROJECT_ROOT, "R", "bootstrap.R"), encoding = "UTF-8")
+old_locale <- Sys.getlocale("LC_CTYPE")
+test <- list(base_seed=20261006L, case=list(scenario="linear", mixture="sparse", n=300L,
+                                          tau=1.5, m=1000L, profile="paper_adjusted", replicate=1L))
+locales <- if (.Platform$OS.type == "windows") c("Chinese_China.936", "Chinese_China.utf8") else c("C", "C.UTF-8")
+values <- vapply(locales, function(locale) {
+  selected <- suppressWarnings(Sys.setlocale("LC_CTYPE", locale))
+  if (!nzchar(selected)) return(NA_character_)
+  object_hash(test)
+}, character(1))
+Sys.setlocale("LC_CTYPE", old_locale)
+print(values)
+stopifnot(length(unique(stats::na.omit(values))) == 1)
+cat("PASS: seed/cache object hashes are identical across command-line and UTF-8 notebook locales.\n")

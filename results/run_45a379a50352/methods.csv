@@ -1,0 +1,4 @@
+"method","adapter_version","packages","description"
+"HDMT","1.0.0","HDMT","HDMT::fdr_est (paper uses exact=0)"
+"MDACT","1.0.0","HDMT","Author MDACT FDR threshold implementation"
+"MLFDR","1.0.0","MLFDR","MLFDR::localFDR + corrected adaptive step-up"
