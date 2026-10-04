@@ -1,0 +1,6 @@
+dataset=paper_adjusted
+run_dir=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/run_76428dee9701
+manifest_path=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/data/data_f87521c2b4eb/manifest.rds
+dataset=teaching_fixed
+run_dir=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/run_17d85e6975d0
+manifest_path=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/data/data_c054ed713a76/manifest.rds

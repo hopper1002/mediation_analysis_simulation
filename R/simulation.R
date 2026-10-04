@@ -17,7 +17,54 @@ build_design <- function(config) {
   grid
 }
 
+# Largest-remainder allocation gives an exact total without changing probabilities
+# more than the unavoidable integer rounding. Ties follow the named state order.
+allocate_fixed_counts <- function(size, probabilities) {
+  target <- size * probabilities
+  counts <- floor(target)
+  left <- as.integer(size - sum(counts))
+  if (left > 0L) {
+    extra <- order(target - counts, decreasing = TRUE)[seq_len(left)]
+    counts[extra] <- counts[extra] + 1L
+  }
+  setNames(as.integer(counts), names(probabilities))
+}
+
+# A balanced randomized exposure and fixed, readily interpretable path effects.
+# The three observation models and the returned data schema match the paper lab.
+simulate_teaching_dataset <- function(case, config) {
+  n <- as.integer(case$n)
+  m <- as.integer(case$m)
+  with_seed(as.integer(case$seed), function() {
+    exposed <- as.integer(round(n * config$exposure_probability))
+    X <- sample(c(rep(0L, n - exposed), rep(1L, exposed)))
+    if (length(unique(X)) < 2L) stop("Exposure has no variation.")
+    counts <- allocate_fixed_counts(m, config$mixtures[[case$mixture]])
+    states <- sample(rep(names(counts), times = counts))
+    alpha <- config$alpha_mean_scale * case$tau * (states %in% c("H10", "H11"))
+    beta <- config$beta_mean_scale * case$tau * (states %in% c("H01", "H11"))
+    direct <- rep(config$direct_mean, m)
+    Z <- if (case$scenario == "confounded") stats::rnorm(n) else numeric(0)
+    theta <- delta <- rep(if (length(Z)) config$confounder_max else 0, m)
+    M <- outer(X, alpha) + matrix(stats::rnorm(n * m, sd = config$error_sd_m), n, m)
+    if (length(Z)) M <- M + outer(Z, theta)
+    eta <- sweep(M, 2, beta, "*") + outer(X, direct)
+    if (length(Z)) eta <- eta + outer(Z, delta)
+    Y <- if (case$scenario == "binary") {
+      matrix(stats::rbinom(n * m, 1, stats::plogis(eta)), n, m)
+    } else eta + matrix(stats::rnorm(n * m, sd = config$error_sd_y), n, m)
+    ids <- sprintf("pathway_%04d", seq_len(m))
+    colnames(M) <- colnames(Y) <- ids
+    list(schema_version = 1L, meta = as.list(case), X = X, Z = Z, M = M, Y = Y,
+         truth = data.frame(pathway_id = ids, state = states, alpha = alpha, beta = beta,
+                            direct = direct, theta = theta, delta = delta,
+                            is_nonnull = states == "H11", stringsAsFactors = FALSE),
+         dgp = dgp_config(config))
+  })
+}
+
 simulate_dataset <- function(case, config) {
+  if (config$dgp_profile == "teaching_fixed") return(simulate_teaching_dataset(case, config))
   n <- as.integer(case$n)
   m <- as.integer(case$m)
   with_seed(as.integer(case$seed), function() {

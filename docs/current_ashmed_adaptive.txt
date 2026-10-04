@@ -1,0 +1,6 @@
+dataset=paper_adjusted
+directory=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/ashmed_optimization_20261005/validation_paper_adjusted
+adaptive_run_dir=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/run_8dd8303289c8
+dataset=teaching_fixed
+directory=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/ashmed_optimization_20261005/validation_teaching_fixed
+adaptive_run_dir=D:/A_Mediation_analysis/code/mlfdr_simulation_lab/results/run_6ba9a73b1f2f

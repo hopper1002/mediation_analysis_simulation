@@ -1,0 +1,7 @@
+"metric","n_compared","max_absolute_difference","unchanged"
+"discoveries",2160,0,TRUE
+"false_discoveries",2160,0,TRUE
+"true_discoveries",2160,0,TRUE
+"alternatives",2160,0,TRUE
+"FDP",2160,4.9960036108132e-16,TRUE
+"power",2160,4.9960036108132e-16,TRUE

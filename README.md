@@ -6,6 +6,12 @@
 
 打开 **`notebooks/01_simulation_workbench.ipynb`**，选择 **R** 内核，按顺序运行。交付的 notebook 已执行，保留结果；同名 `.html` 可直接在浏览器中阅读，不需要 R 或 Jupyter。
 
+新增 **`notebooks/02_teaching_mediation.ipynb`**：用各半随机分组、固定四类路径数量和固定效应生成更容易理解的数据，展示X→M与调整X后的M→Y。HDMT/MDACT/MLFDR、FDR/Power、样本量、信号网格、40次重复及主图与01一致。设计见[TEACHING_SIMULATION.md](docs/TEACHING_SIMULATION.md)，实际运行见[TEACHING_RUN_REPORT.md](docs/TEACHING_RUN_REPORT.md)。命令行重跑：`Rscript --vanilla scripts/run_experiment.R teaching`。
+
+新增 **[第三个notebook：ASHMED比较](notebooks/03_ashmed_comparison.ipynb)**（同名HTML可直接阅读）：依据用户附件ASHMED的数学方法独立实现四状态零中心自适应收缩，在前两套已经保存的正式数据上比较ASHMED/HDMT/MDACT/MLFDR。**第三个notebook只读取数据，不生成数据**；沿用q、FDR/Power、40次重复、MCSE、配对比较和主图，并验证原三方法结果与数据文件不变。数学及补全见[ASHMED_METHOD.md](docs/ASHMED_METHOD.md)，实际结果见[ASHMED_RUN_REPORT.md](docs/ASHMED_RUN_REPORT.md)。二元结局明确标注GLM正态摘要扩展。新插件只依赖基础R。
+
+第三个notebook的开头集中两个已有`data_id`及对应`baseline_run`、新增方法设置和worker数。缺少原始数据时先在01/02生成并保存数据，再把03入口改为实际保存的manifest与对应结果目录；03不会自动生成替代数据。命令行比较：`Rscript --vanilla scripts/run_ashmed.R`；检查：`Rscript --vanilla tests/check_ashmed.R`、`Rscript --vanilla scripts/validate_ashmed.R`、`python scripts/validate_ashmed_notebook.py`。
+
 GitHub 仓库：[hopper1002/mediation_analysis_simulation](https://github.com/hopper1002/mediation_analysis_simulation)。仓库包含完整生成代码、已执行 notebook、文档和全部历史／当前实验结果；**不上传原始模拟数据、估计缓存或临时文件**。克隆后按顺序运行 notebook，即可先生成并保存数据，再从文件读取进行比较；无需下载额外数据附件。
 
 在新机器的仓库根目录，也可通过 `Rscript --vanilla scripts/run_experiment.R paper_comparison` 重建当前主实验。生成参数和逐次种子由配置确定；位级复现仍需要与报告相同的 R／包版本。历史报告中的 `D:/...` 路径记录原执行位置，重跑时将使用当前工程路径。
@@ -26,6 +32,10 @@ jupyter notebook notebooks/01_simulation_workbench.ipynb
 ```
 
 普通 Jupyter 菜单运行不需要这个 Python 脚本。`scripts/build_comparison_notebook.py` 是当前notebook的作者脚本，**会清除已有输出和手工改动**；日常调参数直接改notebook，不要再运行作者脚本。旧`build_notebook.py`仅用于历史弱信号演示。
+
+新增 **[第四个 notebook：改进 ASHMED](notebooks/04_ashmed_adaptive.ipynb)**（[HTML](notebooks/04_ashmed_adaptive.html)）：测试学习效应中心、独立尺度和复合零状态正则化，保留失败尝试与原版参照。第1–8次用于开发、第9–12次确认，固定参数后仅读取第13–40次，按原FDR/Power指标与HDMT/MDACT/MLFDR比较。它是针对当前两套有方向效应DGP的探索方法，不代表原版论文或普遍FDR保证。推导见[ASHMED_ADAPTIVE_METHOD.md](docs/ASHMED_ADAPTIVE_METHOD.md)，实际结果见[ASHMED_ADAPTIVE_RUN_REPORT.md](docs/ASHMED_ADAPTIVE_RUN_REPORT.md)。
+
+第四个 notebook 从 `results/ashmed_optimization_20261005/locked_method.rds` 读取选定配置；源码或依赖指纹变更时拒绝继续称为固定方法的验证。最终比较入口 `Rscript --vanilla scripts/run_adaptive_ashmed.R`；检查入口 `tests/check_adaptive_ashmed.R`、`scripts/validate_adaptive_ashmed.R`、`scripts/validate_adaptive_ashmed_notebook.py`。开发入口 `explore_adaptive_ashmed.R`、`tune_adaptive_ashmed.R`。在新机器重建需先跑01/02生成数据和原方法结果，再跑03生成原版参照，最后开发/锁定新方法。历史锁含执行环境指纹，软件版本改变后应重新锁定并明确标注复现结果。
 
 ## 默认实验
 

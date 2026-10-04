@@ -1,0 +1,7 @@
+"metric","n_compared","max_difference","unchanged"
+"discoveries",2016,0,TRUE
+"false_discoveries",2016,0,TRUE
+"true_discoveries",2016,0,TRUE
+"alternatives",2016,0,TRUE
+"FDP",2016,0,TRUE
+"power",2016,0,TRUE

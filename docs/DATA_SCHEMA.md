@@ -16,7 +16,7 @@
 
 每条路径有独立结局，非所有中介解释公共结局。RDS 保存精确 R 结构；不只保存 z/p 值。真值只用于评估，不直接作为方法输入。
 
-profile区分paper2026（字面正文）、paper_adjusted（论文模型、α均值增强）、source_code（历史源码分布）。参数的实际数值以dgp为准，不依赖标签推断。逐次种子保存在meta与manifest；当前种子/缓存哈希用v2序列化，避免Windows命令行和IRkernel的native_encoding头部差异。原始RDS本身仍用v3保存，读取不受影响。
+profile区分paper2026（字面正文）、paper_adjusted（论文模型、α均值增强）、source_code（历史源码分布）、teaching_fixed（固定分组/状态数量/效应的简单路径数据）。参数的实际数值以dgp为准，不依赖标签推断。逐次种子保存在meta与manifest；当前种子/缓存哈希用v2序列化，避免Windows命令行和IRkernel的native_encoding头部差异。原始RDS本身仍用v3保存，读取不受影响。
 
 ## 索引与跨语言 CSV
 

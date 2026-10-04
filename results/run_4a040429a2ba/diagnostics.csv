@@ -1,0 +1,163 @@
+"case_id","method","status","warning","error","elapsed_seconds","cached"
+"linear_sparse_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999999,FALSE
+"linear_sparse_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0600000000000001,FALSE
+"linear_sparse_n300_t01_r0001","MLFDR","ok","","",0.6,FALSE
+"confounded_sparse_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.01,FALSE
+"confounded_sparse_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0800000000000001,FALSE
+"confounded_sparse_n300_t01_r0001","MLFDR","ok","","",0.26,FALSE
+"binary_sparse_n300_t01_r0001","HDMT","ok","","",0.0499999999999998,FALSE
+"binary_sparse_n300_t01_r0001","MDACT","ok","","",0.0699999999999998,FALSE
+"binary_sparse_n300_t01_r0001","MLFDR","ok","","",1.46,FALSE
+"linear_dense_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999999,FALSE
+"linear_dense_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0600000000000001,FALSE
+"linear_dense_n300_t01_r0001","MLFDR","ok","","",0.36,FALSE
+"confounded_dense_n300_t01_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.03,FALSE
+"confounded_dense_n300_t01_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0799999999999998,FALSE
+"confounded_dense_n300_t01_r0001","MLFDR","ok","","",0.38,FALSE
+"binary_dense_n300_t01_r0001","HDMT","ok","","",0.0600000000000001,FALSE
+"binary_dense_n300_t01_r0001","MDACT","ok","","",0.0899999999999999,FALSE
+"binary_dense_n300_t01_r0001","MLFDR","ok","","",0.25,FALSE
+"linear_sparse_n300_t02_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t02_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000002,FALSE
+"linear_sparse_n300_t02_r0001","MLFDR","ok","","",1.2,FALSE
+"confounded_sparse_n300_t02_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.04,FALSE
+"confounded_sparse_n300_t02_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.02,FALSE
+"confounded_sparse_n300_t02_r0001","MLFDR","ok","","",0.28,FALSE
+"binary_sparse_n300_t02_r0001","HDMT","ok","","",0.00999999999999979,FALSE
+"binary_sparse_n300_t02_r0001","MDACT","ok","","",0.02,FALSE
+"binary_sparse_n300_t02_r0001","MLFDR","ok","","",0.44,FALSE
+"linear_dense_n300_t02_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000002,FALSE
+"linear_dense_n300_t02_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0699999999999998,FALSE
+"linear_dense_n300_t02_r0001","MLFDR","ok","","",0.41,FALSE
+"confounded_dense_n300_t02_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.02,FALSE
+"confounded_dense_n300_t02_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.02,FALSE
+"confounded_dense_n300_t02_r0001","MLFDR","ok","","",0.43,FALSE
+"binary_dense_n300_t02_r0001","HDMT","ok","","",0.0200000000000005,FALSE
+"binary_dense_n300_t02_r0001","MDACT","ok","","",0.0200000000000005,FALSE
+"binary_dense_n300_t02_r0001","MLFDR","ok","","",0.26,FALSE
+"linear_sparse_n300_t03_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0200000000000005,FALSE
+"linear_sparse_n300_t03_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"linear_sparse_n300_t03_r0001","MLFDR","ok","","",0.140000000000001,FALSE
+"confounded_sparse_n300_t03_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000002,FALSE
+"confounded_sparse_n300_t03_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000007,FALSE
+"confounded_sparse_n300_t03_r0001","MLFDR","ok","","",0.0999999999999996,FALSE
+"binary_sparse_n300_t03_r0001","HDMT","ok","","",0.0100000000000007,FALSE
+"binary_sparse_n300_t03_r0001","MDACT","ok","","",0.0600000000000005,FALSE
+"binary_sparse_n300_t03_r0001","MLFDR","ok","","",0.22,FALSE
+"linear_dense_n300_t03_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.04,FALSE
+"linear_dense_n300_t03_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"linear_dense_n300_t03_r0001","MLFDR","ok","","",0.140000000000001,FALSE
+"confounded_dense_n300_t03_r0001","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999994,FALSE
+"confounded_dense_n300_t03_r0001","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"confounded_dense_n300_t03_r0001","MLFDR","ok","","",0.13,FALSE
+"binary_dense_n300_t03_r0001","HDMT","ok","","",0.0299999999999994,FALSE
+"binary_dense_n300_t03_r0001","MDACT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t03_r0001","MLFDR","ok","","",0.12,FALSE
+"linear_sparse_n300_t01_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t01_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000007,FALSE
+"linear_sparse_n300_t01_r0002","MLFDR","ok","","",0.48,FALSE
+"confounded_sparse_n300_t01_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t01_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t01_r0002","MLFDR","ok","","",0.42,FALSE
+"binary_sparse_n300_t01_r0002","HDMT","ok","","",0.0100000000000007,FALSE
+"binary_sparse_n300_t01_r0002","MDACT","ok","","",0.00999999999999979,FALSE
+"binary_sparse_n300_t01_r0002","MLFDR","ok","","",1.64,FALSE
+"linear_dense_n300_t01_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_dense_n300_t01_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_dense_n300_t01_r0002","MLFDR","ok","","",0.45,FALSE
+"confounded_dense_n300_t01_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000007,FALSE
+"confounded_dense_n300_t01_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0200000000000005,FALSE
+"confounded_dense_n300_t01_r0002","MLFDR","ok","","",0.2,FALSE
+"binary_dense_n300_t01_r0002","HDMT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t01_r0002","MDACT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t01_r0002","MLFDR","ok","","",0.25,FALSE
+"linear_sparse_n300_t02_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999994,FALSE
+"linear_sparse_n300_t02_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"linear_sparse_n300_t02_r0002","MLFDR","ok","","",0.529999999999999,FALSE
+"confounded_sparse_n300_t02_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t02_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t02_r0002","MLFDR","ok","","",0.31,FALSE
+"binary_sparse_n300_t02_r0002","HDMT","ok","","",0.0300000000000011,FALSE
+"binary_sparse_n300_t02_r0002","MDACT","ok","","",0,FALSE
+"binary_sparse_n300_t02_r0002","MLFDR","ok","","",0.609999999999999,FALSE
+"linear_dense_n300_t02_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999994,FALSE
+"linear_dense_n300_t02_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"linear_dense_n300_t02_r0002","MLFDR","ok","","",0.219999999999999,FALSE
+"confounded_dense_n300_t02_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0200000000000014,FALSE
+"confounded_dense_n300_t02_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_dense_n300_t02_r0002","MLFDR","ok","","",0.18,FALSE
+"binary_dense_n300_t02_r0002","HDMT","ok","","",0.0200000000000014,FALSE
+"binary_dense_n300_t02_r0002","MDACT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t02_r0002","MLFDR","ok","","",0.210000000000001,FALSE
+"linear_sparse_n300_t03_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t03_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t03_r0002","MLFDR","ok","","",0.17,FALSE
+"confounded_sparse_n300_t03_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t03_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000016,FALSE
+"confounded_sparse_n300_t03_r0002","MLFDR","ok","","",0.16,FALSE
+"binary_sparse_n300_t03_r0002","HDMT","ok","","",0.0300000000000011,FALSE
+"binary_sparse_n300_t03_r0002","MDACT","ok","","",0.0199999999999996,FALSE
+"binary_sparse_n300_t03_r0002","MLFDR","ok","","",0.25,FALSE
+"linear_dense_n300_t03_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000011,FALSE
+"linear_dense_n300_t03_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"linear_dense_n300_t03_r0002","MLFDR","ok","","",0.140000000000001,FALSE
+"confounded_dense_n300_t03_r0002","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_dense_n300_t03_r0002","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0200000000000014,FALSE
+"confounded_dense_n300_t03_r0002","MLFDR","ok","","",0.17,FALSE
+"binary_dense_n300_t03_r0002","HDMT","ok","","",0.00999999999999979,FALSE
+"binary_dense_n300_t03_r0002","MDACT","ok","","",0.00999999999999979,FALSE
+"binary_dense_n300_t03_r0002","MLFDR","ok","","",0.109999999999999,FALSE
+"linear_sparse_n300_t01_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000011,FALSE
+"linear_sparse_n300_t01_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"linear_sparse_n300_t01_r0003","MLFDR","ok","","",0.280000000000001,FALSE
+"confounded_sparse_n300_t01_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t01_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"confounded_sparse_n300_t01_r0003","MLFDR","ok","","",0.300000000000001,FALSE
+"binary_sparse_n300_t01_r0003","HDMT","ok","","",0.00999999999999979,FALSE
+"binary_sparse_n300_t01_r0003","MDACT","ok","","",0.00999999999999979,FALSE
+"binary_sparse_n300_t01_r0003","MLFDR","ok","","",0.390000000000001,FALSE
+"linear_dense_n300_t01_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0200000000000014,FALSE
+"linear_dense_n300_t01_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"linear_dense_n300_t01_r0003","MLFDR","ok","","",0.450000000000001,FALSE
+"confounded_dense_n300_t01_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_dense_n300_t01_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"confounded_dense_n300_t01_r0003","MLFDR","ok","","",0.210000000000001,FALSE
+"binary_dense_n300_t01_r0003","HDMT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t01_r0003","MDACT","ok","","",0,FALSE
+"binary_dense_n300_t01_r0003","MLFDR","ok","","",0.229999999999999,FALSE
+"linear_sparse_n300_t02_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999994,FALSE
+"linear_sparse_n300_t02_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"linear_sparse_n300_t02_r0003","MLFDR","ok","","",0.33,FALSE
+"confounded_sparse_n300_t02_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000011,FALSE
+"confounded_sparse_n300_t02_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"confounded_sparse_n300_t02_r0003","MLFDR","ok","","",0.31,FALSE
+"binary_sparse_n300_t02_r0003","HDMT","ok","","",0.0299999999999994,FALSE
+"binary_sparse_n300_t02_r0003","MDACT","ok","","",0,FALSE
+"binary_sparse_n300_t02_r0003","MLFDR","ok","","",0.469999999999999,FALSE
+"linear_dense_n300_t02_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0300000000000011,FALSE
+"linear_dense_n300_t02_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"linear_dense_n300_t02_r0003","MLFDR","ok","","",0.170000000000002,FALSE
+"confounded_dense_n300_t02_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0600000000000005,FALSE
+"confounded_dense_n300_t02_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000016,FALSE
+"confounded_dense_n300_t02_r0003","MLFDR","ok","","",0.209999999999999,FALSE
+"binary_dense_n300_t02_r0003","HDMT","ok","","",0.0199999999999996,FALSE
+"binary_dense_n300_t02_r0003","MDACT","ok","","",0.00999999999999979,FALSE
+"binary_dense_n300_t02_r0003","MLFDR","ok","","",0.17,FALSE
+"linear_sparse_n300_t03_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t03_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.00999999999999979,FALSE
+"linear_sparse_n300_t03_r0003","MLFDR","ok","","",0.120000000000001,FALSE
+"confounded_sparse_n300_t03_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_sparse_n300_t03_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_sparse_n300_t03_r0003","MLFDR","ok","","",0.300000000000001,FALSE
+"binary_sparse_n300_t03_r0003","HDMT","ok","","",0.0199999999999996,FALSE
+"binary_sparse_n300_t03_r0003","MDACT","ok","","",0.0199999999999996,FALSE
+"binary_sparse_n300_t03_r0003","MLFDR","ok","","",0.18,FALSE
+"linear_dense_n300_t03_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0299999999999994,FALSE
+"linear_dense_n300_t03_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0,FALSE
+"linear_dense_n300_t03_r0003","MLFDR","ok","","",0.170000000000002,FALSE
+"confounded_dense_n300_t03_r0003","HDMT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0100000000000016,FALSE
+"confounded_dense_n300_t03_r0003","MDACT","ok","ties should not be present for the one-sample Kolmogorov-Smirnov test","",0.0199999999999996,FALSE
+"confounded_dense_n300_t03_r0003","MLFDR","ok","","",0.129999999999999,FALSE
+"binary_dense_n300_t03_r0003","HDMT","ok","","",0.0300000000000011,FALSE
+"binary_dense_n300_t03_r0003","MDACT","ok","","",0.00999999999999801,FALSE
+"binary_dense_n300_t03_r0003","MLFDR","ok","","",0.189999999999998,FALSE

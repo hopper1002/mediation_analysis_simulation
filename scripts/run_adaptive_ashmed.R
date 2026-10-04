@@ -1,0 +1,5 @@
+PROJECT_ROOT <- normalizePath(getwd(), winslash = "/")
+source("R/bootstrap.R", encoding = "UTF-8")
+source("R/ashmed_optimization.R", encoding = "UTF-8")
+suite <- run_final_adaptive_comparison(PROJECT_ROOT)
+for (name in names(suite)) cat(name, ": ", suite[[name]]$directory, "\n", sep = "")

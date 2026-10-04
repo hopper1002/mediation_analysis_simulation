@@ -11,10 +11,14 @@ manifest <- generate_data_files(config, PROJECT_ROOT)
 manifest <- read_manifest(file.path(manifest$directory, "manifest.rds"))
 experiment <- run_experiment(manifest, config, PROJECT_ROOT)
 save_figures(experiment)
-if (config$preset == "paper_comparison") {
+if (config$preset %in% c("paper_comparison", "teaching")) {
   save_comparison_artifacts(experiment, PROJECT_ROOT)
   atomic_save_rds(list(output_dir = experiment$output_dir,
                        manifest_path = file.path(manifest$directory, "manifest.rds"), config = config),
-                  file.path(PROJECT_ROOT, "docs", "current_comparison.rds"))
+                  file.path(PROJECT_ROOT, "docs", if (config$preset == "teaching") "current_teaching.rds" else "current_comparison.rds"))
+  if (config$preset == "teaching")
+    writeLines(c(paste0("run_dir=",experiment$output_dir),
+                 paste0("manifest_path=",file.path(manifest$directory,"manifest.rds"))),
+               file.path(PROJECT_ROOT,"docs","current_teaching.txt"))
 }
 cat("Results:", experiment$output_dir, "\n")

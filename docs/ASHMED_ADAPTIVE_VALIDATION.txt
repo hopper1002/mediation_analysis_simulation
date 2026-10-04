@@ -1,0 +1,8 @@
+ASHMED_Adaptive final evaluation validation passed.
+paper_adjusted: 504 held-out cases / 2520 five-method results; all adaptive fits converged; max gap 9.98783e-05; fallbacks 1; raw MD5 720/720.
+teaching_fixed: 504 held-out cases / 2520 five-method results; all adaptive fits converged; max gap 9.99334e-05; fallbacks 0; raw MD5 720/720.
+Total: 1008 saved cases and 5040 method results recomputed from truth and decision caches.
+All summaries, MCSE/interval and paired tables recomputed and matched CSV.
+Frozen method fingerprint and options match development selection; repeats 13:40 disjoint from development/confirmation.
+Protected original files: 18/18 unchanged.
+No original simulation data regeneration; baseline decisions and metrics exactly preserved.

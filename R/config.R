@@ -1,4 +1,4 @@
-default_config <- function(preset = c("demo", "paper_grid", "source_demo", "paper_comparison")) {
+default_config <- function(preset = c("demo", "paper_grid", "source_demo", "paper_comparison", "teaching")) {
   preset <- match.arg(preset)
   config <- list(
     schema_version = 1L,
@@ -38,7 +38,7 @@ default_config <- function(preset = c("demo", "paper_grid", "source_demo", "pape
     config$direct_mean <- 0.5
     config$direct_sd <- 1
   }
-  if (preset == "paper_comparison") {
+  if (preset %in% c("paper_comparison", "teaching")) {
     config$seed <- 20261007L
     config$dgp_profile <- "paper_adjusted"
     config$alpha_mean_scale <- 0.35
@@ -47,6 +47,17 @@ default_config <- function(preset = c("demo", "paper_grid", "source_demo", "pape
     config$repetitions <- 40L
     config$workers <- 4L
     config$method_options$MLFDR <- list(engine = "paper_em", eps = 1e-4, max_iter = 2000L, n_starts = 3L)
+  }
+  if (preset == "teaching") {
+    config$seed <- 20261010L
+    config$dgp_profile <- "teaching_fixed"
+    config$exposure_probability <- 0.5
+    config$alpha_mean_scale <- 0.2
+    config$beta_mean_scale <- 0.5
+    config$alpha_noise_variance <- config$beta_noise_variance <- 0
+    config$direct_mean <- 0.2
+    config$direct_sd <- 0
+    config$confounder_max <- 0.3
   }
   config
 }
@@ -62,7 +73,7 @@ validate_config <- function(config) {
             !anyDuplicated(config$tau), length(config$q) == 1, config$q > 0, config$q < 1,
             all(config$scenarios %in% c("linear", "confounded", "binary")),
             length(config$scenarios) > 0, !anyDuplicated(config$scenarios),
-            config$dgp_profile %in% c("paper2026", "paper_adjusted", "source_code"),
+            config$dgp_profile %in% c("paper2026", "paper_adjusted", "source_code", "teaching_fixed"),
             length(config$methods) > 0, !anyDuplicated(config$methods),
             all(grepl("^[A-Za-z][A-Za-z0-9_]*$", config$methods)),
             length(config$exposure_probability) == 1,
@@ -74,8 +85,15 @@ validate_config <- function(config) {
     stopifnot(identical(names(pi), c("H00", "H10", "H01", "H11")),
               all(is.finite(pi)), all(pi >= 0), abs(sum(pi) - 1) < 1e-10)
   }
-  for (key in c("alpha_noise_variance", "beta_noise_variance", "direct_sd", "error_sd_m", "error_sd_y"))
+  for (key in c("alpha_noise_variance", "beta_noise_variance", "direct_sd")) {
+    stopifnot(length(config[[key]]) == 1, is.finite(config[[key]]))
+    if (config$dgp_profile == "teaching_fixed") stopifnot(config[[key]] == 0)
+    else stopifnot(config[[key]] > 0)
+  }
+  for (key in c("error_sd_m", "error_sd_y"))
     stopifnot(length(config[[key]]) == 1, is.finite(config[[key]]), config[[key]] > 0)
+  if (config$dgp_profile == "teaching_fixed")
+    stopifnot(all(config$tau > 0), config$alpha_mean_scale != 0, config$beta_mean_scale != 0)
   for (key in c("alpha_mean_scale", "beta_mean_scale", "direct_mean", "confounder_max"))
     stopifnot(length(config[[key]]) == 1, is.finite(config[[key]]))
   stopifnot(config$confounder_max >= 0)

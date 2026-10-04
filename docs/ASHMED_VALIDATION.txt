@@ -1,0 +1,6 @@
+ASHMED delivery validation passed.
+paper_adjusted: 720 saved datasets, 2880 successful calls; ASHMED 720/720 converged; max gap 9.98439e-05; old-method differences <= 5e-16.
+teaching_fixed: 720 saved datasets, 2880 successful calls; ASHMED 720/720 converged; max gap 9.99822e-05; old-method differences <= 4.86e-16.
+Total: 1440 saved datasets; 5760 method results checked against truth and rejection caches.
+Original data checksums match; baseline R/V/S/A/FDP/power preserved; summary/paired tables recomputed and matched.
+No experiment dataset generation was invoked.

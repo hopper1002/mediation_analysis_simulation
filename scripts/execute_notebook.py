@@ -1,6 +1,7 @@
 """Execute the R notebook and export a standalone HTML using nbclient/nbconvert."""
 import os
 import asyncio
+import argparse
 from pathlib import Path
 import nbformat
 from nbclient import NotebookClient
@@ -9,7 +10,14 @@ from nbconvert import HTMLExporter
 root = Path(__file__).resolve().parents[1]
 if os.name == "nt":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-path = root / "notebooks" / "01_simulation_workbench.ipynb"
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("notebook", nargs="?", default="notebooks/01_simulation_workbench.ipynb",
+                    help="Notebook path relative to the project, or an absolute path.")
+args = parser.parse_args()
+path = Path(args.notebook)
+if not path.is_absolute():
+    path = root / path
+path = path.resolve(strict=True)
 # The host has Unix locale strings that R on Windows rejects during startup.
 # This changes only this process and its R-kernel child environment.
 for name in ("LC_ALL", "LC_COLLATE", "LC_CTYPE", "LC_MONETARY", "LC_TIME", "LANG"):
